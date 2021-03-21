@@ -6,11 +6,11 @@ function Y_PRED = decision_templates_agg(classifiers, DATA_TRAIN, LABELS_TRAIN, 
     
     decision_profile_test = build_decision_profile(classifiers,DATA_TEST);
     
-    Y_PRED = zeros(1,size(decision_profile_test,1));
+    Y_PRED = zeros(size(decision_profile_test,1),1);
     
     for i = 1:size(decision_profile_test,1) 
         min = 1/0;
-        
+        label = 0;
         for j = 1:size(decision_template_train,1)
             X = decision_profile_test(i,:);
             Y = decision_template_train(j,:);

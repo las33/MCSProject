@@ -10,7 +10,7 @@ function Y_PRED = max_agg(classifiers, X_test)
         saidas(i).label = classifiers(i).label;
     end
     
-    Y_PRED = zeros(1,qtd_instancias);
+    Y_PRED = zeros(qtd_instancias,1);
     
     for i = 1:qtd_instancias
         max = 0;
