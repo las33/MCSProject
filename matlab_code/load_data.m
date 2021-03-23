@@ -1,12 +1,12 @@
-function [ DATA, LABELS ] = load_data( filename )
+function [X, y] = load_data(filename)
   FILE = importdata(filename);
   
   if isstruct(FILE)
-      DATA = FILE.data;
-      LABELS = cell2mat(FILE.textdata);
+      X = FILE.data;
+      y = cell2mat(FILE.textdata);
   else
-      DATA = FILE(:, 1:(size(FILE, 2)-1));
-      LABELS = FILE(:, size(FILE, 2));
+      X = FILE(:, 1:(size(FILE, 2)-1));
+      y = FILE(:, size(FILE, 2));
   end
 end
 

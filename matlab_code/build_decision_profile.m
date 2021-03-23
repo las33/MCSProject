@@ -1,23 +1,22 @@
-function [DECISION_PROFILE] = build_decision_profile(classifiers, DATA)
+function [decision_profile] = build_decision_profile(classifiers, X)
+    classifier_output = struct();
+    qtd_instancias = size(X,1);
+    pr_test = prdataset(X);
     
-    saidas = struct();
-    qtd_instancias = size(DATA,1);
-    pr_test = prdataset(DATA);
-    
-    DECISION_PROFILE = zeros(size(DATA, 1),length(classifiers));
+    decision_profile = zeros(size(X, 1),length(classifiers));
     
     for i = 1:length(classifiers)        
         pred = pr_test*classifiers(i).classifier;
-        saidas(i).pred = pred.DATA(:,1);
-        saidas(i).label = classifiers(i).label;
+        classifier_output(i).pred = pred.DATA(:,1);
+        classifier_output(i).label = classifiers(i).label;
     end    
         
     for i = 1:qtd_instancias
         row = zeros(1, length(classifiers));
-        for j = 1:length(saidas)
-           row(j) = saidas(j).pred(i);             
+        for j = 1:length(classifier_output)
+           row(j) = classifier_output(j).pred(i);
         end
-        DECISION_PROFILE(i,:) = row;
+        decision_profile(i,:) = row;
     end   
 end
 
