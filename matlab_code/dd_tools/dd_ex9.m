@@ -9,22 +9,18 @@
 % P.O. Box 5031, 2600 GA Delft, The Netherlands
 
 % Standard parameter:
-% Standard parameter:
-frac = 0.05;
+frac = 0.1;
 reg = 1e-2;
 % Define the classifiers
-w = {parzen_dd([],frac,[])*dd_normc
-     svdd([],frac,5)*dd_normc
-	  mst_dd([],frac,20)*dd_normc
+w = {gauss_dd([],frac,reg)*dd_normc
+     mog_dd([],frac,5,'full',reg,200)*dd_normc
+	  incsvdd([],frac,'r',5)*dd_normc
 	  };
 nrcl = length(w);
 % Define the number of cross-validations:
 nrbags = 10;
 % Generating some OC dataset:
-[data, labels] = load_data('C:\Users\barre\Documents\projeto\MCSProject\ProcessedBases\Penbased/penbased.csv');
-pr = prdataset(data, labels);
-a = oc_set(pr,1);
-% a = oc_set(gendatb([100 60],1.6),'1');
+a = oc_set(gendatb([100 60],1.6),'1');
 
 % Set up:
 auc = zeros(nrcl,nrbags);
@@ -37,8 +33,7 @@ for i=1:nrbags
 	for j=1:nrcl
 		wtr = x*w{j};
 		% evaluate the classifiers:
-		%auc(j,i) = dd_auc(z*wtr*dd_roc);
-        disp(z*wtr)
+		auc(j,i) = dd_auc(z*wtr*dd_roc);
 	end
 
 end

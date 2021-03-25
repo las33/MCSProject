@@ -53,7 +53,7 @@ elseif mapping_task(argin,'training')			% Train a mapping.
 	if N > 0
 		[dummy,paths] = m_paths(A,N);
 		tree = [];
-		for i=1:length(paths)
+		for i=1:N
 			tree = [tree; [paths{i,1}(1:end-1)' paths{i,1}(2:end)']];
 		end
 	end
