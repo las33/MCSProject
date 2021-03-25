@@ -1,4 +1,4 @@
-function y_pred = des(base_classifiers, X_train, y_train, X_test, agg_method, alpha)
+function y_pred = des(base_classifiers, X_train, y_train, X_test, agg_method_name, alpha)
     y_pred = zeros(size(X_test, 1), 1);
     m = length(unique(y_train));
     k = 3*m;
@@ -20,7 +20,7 @@ function y_pred = des(base_classifiers, X_train, y_train, X_test, agg_method, al
             
             unique_neigh_labels = unique(neigh_labels);
             classifiers = base_classifiers(unique_neigh_labels);
-            y_pred_i = agg_method(classifiers, X_test(i, :));
+            y_pred_i = run_agg_method_by_name(agg_method_name, classifiers, X_train, y_train, X_test);
             y_pred(i) = y_pred_i(1);
         else
             y_pred(i) = neigh_labels(1);
