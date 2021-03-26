@@ -112,12 +112,12 @@ hits=0;
 labels=zeros([1 size(TestData,1)]);
 
 for z=1:size(ECOC,2)
-     try,
+     %try,
         %X(:,z)=feval(base_test,TestData(:,1:size(TestData,2)-1),Classifiers{z}.classifier,base_test_params);
         X(:,z)= predict_one(Classifiers{z}.classifier,TestData(:,1:size(TestData,2)-1)); 
-     catch,
-        error('Exit: Decoding error when using custom testing strategy.');
-     end
+     %catch,
+     %   error('Exit: Decoding error when using custom testing strategy.');
+     %end
 end
 
 for i=1:size(TestData,1) % for each sample in the test set
