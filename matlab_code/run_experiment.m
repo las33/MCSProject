@@ -1,6 +1,6 @@
 function run_experiment()
-    n_folds = 5;
-    datasets = ["Letter-2"];
+    n_folds = 1;
+    datasets = ["Penbased"];
     fracrej = 0.05;
     sigma = 5;
     width_param = [];
@@ -15,15 +15,15 @@ function run_experiment()
     Parameters.store_training_data=1;
     Parameters.fracrej=fracrej;
     
-    base_classifiers = ["svdd", "parzen"];
-    aggregators = ["max_agg", "decision_templates_agg"];
-    techniques = ["des", "desthr"];
+    base_classifiers = ["svdd"];%, "parzen"];
+    aggregators = ["ecoc_agg"];%, "max_agg", "decision_templates_agg"];
+    techniques = ["des"];%, "desthr"];
     
     for d = 1:length(datasets)
         dataset_name = datasets(d);
         fprintf("Dataset: " + dataset_name + "\n");
 
-        for n_fold = 5:n_folds
+        for n_fold = 1:n_folds
             try
                 fprintf("\tFold: #" + n_fold + "\n");
                 
