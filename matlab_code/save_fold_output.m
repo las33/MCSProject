@@ -1,5 +1,5 @@
-function save_fold_output(content, database_name, n_fold, identifier)
-    target_folder = sprintf("../results/%s", database_name);
+function save_fold_output(content, result_folder, database_name, n_fold, identifier)
+    target_folder = sprintf("../%s/%s", result_folder, database_name);
     if ~exist(target_folder, "dir")
         mkdir(target_folder);
     end

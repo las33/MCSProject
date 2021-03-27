@@ -8,7 +8,7 @@ function y_pred = des(base_classifiers, X_train, y_train, X_test, alpha, agg_met
         threshold = ceil(alpha*k);
     end
     
-    for i = 1:length(X_test)
+    for i = 1:size(X_test, 1)
         idx = knnsearch(X_train, X_test(i, :), "K", k);
         neigh_labels = y_train(idx);
         
