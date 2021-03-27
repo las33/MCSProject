@@ -1,9 +1,10 @@
 function run_experiment3()
     n_folds = 5;
-    datasets = ["Auslan"];
+    datasets = ["Auslan", "Autos", "Car", "Cleveland", "Dermatology", "Ecoli", "Flare", "Glass", "Isolet", "Led7digit", "Letter-2", "Lymphography", "Nursery", "Page-blocks", "Penbased", "Satimage", "Segment", "Shuttle", "Vehicle", "Vowel", "Yeast", "Zoo"];
     
     alpha = 0.1;
     root_dataset_name = "ProcessedBases_MinMax";
+    result_folder = "results_MinMax_prunned";
     
     base_classifiers = ["svc"]; %c4.5
     aggregators = ["max_agg", "decision_templates_agg"];%, "ecoc_agg"];
@@ -48,7 +49,7 @@ function run_experiment3()
 
                                 technique_result = run_techique_by_name(technique_name, base_classifier_trained, X_train, y_train, X_test, alpha, aggregator_name, Parameters);
 
-                                save_fold_output([y_test technique_result], sprintf("%s/%s", "Experiment3", dataset_name), n_fold, sprintf("%s_%s_%s_%s", base_classifier_name, aggregator_name, occ_strategie_name, technique_name));
+                                save_fold_output([y_test technique_result], result_folder, sprintf("%s/%s", "Experiment3", dataset_name), n_fold, sprintf("%s_%s_%s_%s", base_classifier_name, aggregator_name, occ_strategie_name, technique_name));
                             end
                         end
                     end
