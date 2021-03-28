@@ -44,12 +44,12 @@ end
 if isfield(Parameters,'base_test_params')==0
     Parameters.base_test_params='';
 end
-%   Custom decoding
-if isfield(Parameters,'custom_decoding')==0
-    Parameters.custom_decoding='';
+if isfield(Parameters,'removed_classes')==0
+    Parameters.removed_classes= [];
 end
-if isfield(Parameters,'custom_decoding_params')==0
-    Parameters.custom_decoding_params='';
+
+if isfield(Parameters,'removed_clfs')==0
+    Parameters.removed_clfs= [];
 end
 
 if length(labels)~=size(TestData,1)
@@ -73,7 +73,7 @@ if size(TestData,1)~=0
     if size(ECOC,1)==0
         error('Exit: ECOC matrix not defined.');
     else % call to the corresponding decoding strategy with the current ecoc configuration
-        [result,confusion,Labels,Values]=Decoding(TestData,classes,ECOC,Parameters.base_binary,Classifiers,Parameters.decoding,Parameters.base_test,Parameters.base_test_params,Parameters.custom_decoding,Parameters.custom_decoding_params);
+        [result,confusion,Labels,Values]=Decoding(TestData,classes,ECOC,Parameters.base_binary,Classifiers,Parameters.decoding,Parameters.base_test,Parameters.base_test_params, Parameters);
     end
 else
     Labels=[];

@@ -20,11 +20,52 @@
 
 %##########################################################################
 
-function [result,confusion,labels,Values]=Decoding(TestData,classes,ECOC,base,Classifiers,decoding,base_test,base_test_params,custom_decoding,custom_decoding_param)
+function [result,confusion,labels,Values]=Decoding(TestData,classes,ECOC,base,Classifiers,decoding,base_test,base_test_params,Parameters)
 
 alpha=0;
 feature=0;
 x=zeros([1 size(ECOC,2)]);
+
+
+
+if(size(Parameters.removed_classes, 1) > 0)
+
+    new_length = length(classes) - length(Parameters.removed_classes);
+    NEW_ECOC = zeros([new_length size(Classifiers,2)]);
+    new_classes = zeros(1, new_length);
+    j = 1;
+    for i=1:length(classes)
+        if(ismember(classes(i),Parameters.removed_classes) ~= 1)
+           NEW_ECOC(j,:) = ECOC(i,:);
+           new_classes(j) = i;
+           j = j+1;          
+        end        
+    end
+    
+    ECOC = NEW_ECOC;
+    classes = new_classes;    
+end
+
+if(size(Parameters.removed_clfs, 1) > 0)
+
+    new_length = size(Classifiers,2) - length(Parameters.removed_clfs);
+    NEW_ECOC = zeros([size(ECOC,1) new_length]);
+    new_clfs=[];
+    j = 1;
+    for i=1:size(Classifiers,2)
+        if(ismember(i,Parameters.removed_clfs) ~= 1)
+           NEW_ECOC(:, j) = ECOC(:,i);
+           
+           new_clfs{length(new_clfs)+1}.classifier=Classifiers{i}.classifier;    
+           new_clfs{length(new_clfs)}.label = Classifiers{i}.label; 
+            
+           j = j+1;            
+        end       
+    end
+    
+    ECOC = NEW_ECOC;
+    Classifiers = new_clfs;    
+end
 
 switch decoding
     case 'BDEN', % setting the parameters for BDEN decoding strategy
@@ -120,7 +161,9 @@ for z=1:size(Classifiers,2)
      %catch,
      %   error('Exit: Decoding error when using custom testing strategy.');
      %end
-end
+end    
+
+
 
 for i=1:size(TestData,1) % for each sample in the test set
     x=X(i,:);
@@ -150,12 +193,6 @@ for i=1:size(TestData,1) % for each sample in the test set
                     d=LLW(x,ECOC(k,:),abs(ECOC(k,:).*weights)./sum(abs(ECOC(k,:).*weights)));
                 case 'ELW', % Exponential Loss-Weighted decoding
                     d=ELW(x,ECOC(k,:),abs(ECOC(k,:).*weights)./sum(abs(ECOC(k,:).*weights)));
-                case 'CUSTOM',
-                    try,
-                        d=feval(custom_decoding,x,ECOC(k,:),custom_decoding_params);
-                    catch,
-                        error('Exit: Decoding error when using custom decoding strategy.');
-                    end
                 otherwise,
                     error('Exit: Decoding type bad defined.');
             end

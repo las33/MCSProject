@@ -3,7 +3,7 @@ Parameters.coding='DECOC';
 %Parameters.coding='OneVsOne'; //Coding one vs one 
 %Parameters.coding='OneVsAll'; //Coding one vs all 
 Parameters.decoding='ED';
-Parameters.store_training_data=1;
+Parameters.store_training_data=0;
 
 Parameters.base_classifier=svdd;
 Parameters.base_binary = 'svm'; %usa o svm
