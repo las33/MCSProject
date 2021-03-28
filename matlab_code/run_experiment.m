@@ -1,12 +1,13 @@
 function run_experiment()
-    n_folds = 1;
-    datasets = ["Penbased"];
+    n_folds = 5;
+    datasets = ["Auslan", "Autos", "Car", "Cleveland", "Dermatology", "Ecoli", "Flare", "Glass", "Isolet", "Led7digit", "Letter-2", "Lymphography", "Nursery", "Page-blocks", "Penbased", "Satimage", "Segment", "Shuttle", "Vehicle", "Vowel", "Yeast", "Zoo"];
     fracrej = 0.05;
     sigma = 5;
     width_param = [];
     N = 20;
     alpha = 0.1;
     root_dataset_name = "ProcessedBases_MinMax";
+    result_folder = "results_MinMax_prunned";
     
     clear Parameters;
     Parameters.coding='DECOC';
@@ -15,9 +16,9 @@ function run_experiment()
     Parameters.store_training_data=1;
     Parameters.fracrej=fracrej;
     
-    base_classifiers = ["svdd"];%, "parzen"];
-    aggregators = ["ecoc_agg"];%, "max_agg", "decision_templates_agg"];
-    techniques = ["des"];%, "desthr"];
+    base_classifiers = ["svdd", "parzen"];
+    aggregators = ["max_agg", "decision_templates_agg", "ecoc_agg"];
+    techniques = ["des", "desthr"];
     
     for d = 1:length(datasets)
         dataset_name = datasets(d);
@@ -55,7 +56,7 @@ function run_experiment()
                             aggregator_result = run_agg_method_by_name(aggregator_name, base_classifier_trained, X_train, y_train, X_test);
                         end
 
-                        save_fold_output([y_test aggregator_result], dataset_name, n_fold, sprintf("%s_%s", base_classifier_name, aggregator_name));
+                        save_fold_output([y_test aggregator_result], result_folder, sprintf("%s/%s", "Experiment1", dataset_name), n_fold, sprintf("%s_%s", base_classifier_name, aggregator_name));
                         
                         for k = 1:length(techniques)
                             % run technique using base_classifier trained and aggregator
@@ -65,7 +66,7 @@ function run_experiment()
 
                             technique_result = run_techique_by_name(technique_name, base_classifier_trained, X_train, y_train, X_test, alpha, aggregator_name, Parameters);
 
-                            save_fold_output([y_test technique_result], dataset_name, n_fold, sprintf("%s_%s_%s", base_classifier_name, aggregator_name, technique_name));
+                            save_fold_output([y_test technique_result], result_folder, sprintf("%s/%s", "Experiment1", dataset_name), n_fold, sprintf("%s_%s_%s", base_classifier_name, aggregator_name, technique_name));
                         end
                     end
                 end

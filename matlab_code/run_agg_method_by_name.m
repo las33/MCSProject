@@ -6,6 +6,8 @@ function y_pred = run_agg_method_by_name(agg_method_name, classifiers, X_train, 
             y_pred = decision_templates_agg(classifiers, X_train, y_train, X_test);
         elseif agg_method_name == "ecoc_agg"
             [~, y_pred, ~, ~] = ECOCTest(X_train, classifiers, Parameters, y_train);
+        elseif agg_method_name == "majority_agg"
+            y_pred = majority_agg(classifiers, X_test);
         end
     else
         y_pred = zeros(size(X_test, 1));
