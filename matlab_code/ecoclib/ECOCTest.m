@@ -52,6 +52,10 @@ if isfield(Parameters,'removed_clfs')==0
     Parameters.removed_clfs= [];
 end
 
+if isfield(Parameters,'base_binary')==0
+    Parameters.base_binary = '';
+end
+
 if length(labels)~=size(TestData,1)
     error('Wrong labels size');
 else
