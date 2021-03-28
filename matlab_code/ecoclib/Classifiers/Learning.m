@@ -26,12 +26,13 @@ ECOC=Parameters.ECOC;
 %base=Parameters.base;
 fracrej=Parameters.fracrej;
 sigma =Parameters.sigma;
-base_classifier =Parameters.base_classifier;
+base_classifier = Parameters.base_classifier;
+clf_bin = Parameters.base_binary;
 
 y_train = data(:,size(data,2));
 X_train = data(:,1:size(data,2)-1);
 
-cls = run_base_classifier_ecoc(base_classifier, X_train, y_train, fracrej, sigma, ECOC);
+cls = run_base_classifier_ecoc(base_classifier, X_train, y_train, fracrej, sigma, ECOC, Parameters.coding, clf_bin);
 
 Classifiers=[];
 for i=positions % for each column of the coding matrix

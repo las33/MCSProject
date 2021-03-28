@@ -1,10 +1,14 @@
 clear Parameters;
 Parameters.coding='DECOC';
+%Parameters.coding='OneVsOne'; //Coding one vs one 
+%Parameters.coding='OneVsAll'; //Coding one vs all 
 Parameters.decoding='ED';
 Parameters.store_training_data=1;
 
 Parameters.base_classifier=svdd;
-Parameters.fracrej=0.0045;
+Parameters.base_binary = 'svm'; %usa o svm
+%Parameters.base_binary = ''; usa o que estiver em base_classifier
+Parameters.fracrej=0.05;
 Parameters.sigma=5;
 
 
@@ -14,14 +18,6 @@ Parameters.sigma=5;
 [data_test, labels_test] = load_data('C:\Users\leona\Documents\Mestrado_code\MCSProject\ProcessedBases\Penbased\penbased_3_test.csv');
 
 [Classifiers,Parameters]=ECOCTrain(data_train,labels_train,Parameters);
-
-
-ECOC = Parameters.ECOC;
-
-ECOC(ECOC==-1)=0;
-
-Parameters.ECOC = ECOC;    
-
 
 %%%% DES É APLICADO AQUI
 

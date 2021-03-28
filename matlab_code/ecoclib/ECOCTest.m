@@ -73,7 +73,7 @@ if size(TestData,1)~=0
     if size(ECOC,1)==0
         error('Exit: ECOC matrix not defined.');
     else % call to the corresponding decoding strategy with the current ecoc configuration
-        [result,confusion,Labels,Values]=Decoding(TestData,classes,ECOC,[],Classifiers,Parameters.decoding,Parameters.base_test,Parameters.base_test_params,Parameters.custom_decoding,Parameters.custom_decoding_params);
+        [result,confusion,Labels,Values]=Decoding(TestData,classes,ECOC,Parameters.base_binary,Classifiers,Parameters.decoding,Parameters.base_test,Parameters.base_test_params,Parameters.custom_decoding,Parameters.custom_decoding_params);
     end
 else
     Labels=[];

@@ -107,9 +107,11 @@ switch decoding
         end
 end
 
+
 confusion=zeros([length(classes) length(classes)]);
 hits=0;
 labels=zeros([1 size(TestData,1)]);
+
 
 for z=1:size(Classifiers,2)
      %try,
@@ -119,13 +121,6 @@ for z=1:size(Classifiers,2)
      %   error('Exit: Decoding error when using custom testing strategy.');
      %end
 end
-
-ECOC = zeros([length(classes) size(Classifiers,2)]);
-
-for z=1:size(Classifiers,2)     
-    ECOC(Classifiers{z}.label,z)= 1;   
-end
-
 
 for i=1:size(TestData,1) % for each sample in the test set
     x=X(i,:);
