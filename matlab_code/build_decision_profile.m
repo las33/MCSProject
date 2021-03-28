@@ -7,7 +7,12 @@ function [decision_profile] = build_decision_profile(classifiers, X)
     
     for i = 1:length(classifiers)        
         pred = pr_test*classifiers(i).classifier;
-        classifier_output(i).pred = pred.DATA(:,1);
+        feature_cod = pred.FEATLAB(1,:);
+        if(feature_cod ~= 'outlier')
+            classifier_output(i).pred = pred.DATA(:, 1);            
+        else            
+            classifier_output(i).pred = pred.DATA(:, 2);
+        end
         classifier_output(i).label = classifiers(i).label;
     end    
         

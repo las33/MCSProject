@@ -9,7 +9,7 @@ function [decision_template, output_labels] = build_decision_template(decision_p
         count = 0;
         for j = 1:length(input_labels)
             if(input_labels(j) == current_label)
-               c_template =  sum([c_template; decision_profile(i, :)]);
+               c_template =  sum([c_template; decision_profile(j, :)]);
                count = count + 1;
             end
         end
