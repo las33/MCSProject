@@ -47,7 +47,7 @@ function run_experiment3()
                                 technique_name = techniques(k);
                                 fprintf("\t\t\t\t\tTechnique: " + technique_name + "\n");
 
-                                technique_result = run_techique_by_name(technique_name, base_classifier_trained, X_train, y_train, X_test, alpha, aggregator_name, Parameters);
+                                technique_result = run_technique_by_name(technique_name, base_classifier_trained, X_train, y_train, X_test, y_test, alpha, aggregator_name, Parameters);
 
                                 save_fold_output([y_test technique_result], result_folder, sprintf("%s/%s", "Experiment3", dataset_name), n_fold, sprintf("%s_%s_%s_%s", base_classifier_name, aggregator_name, occ_strategie_name, technique_name));
                             end

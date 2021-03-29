@@ -13,7 +13,7 @@ function run_experiment()
     Parameters.coding='DECOC';
     Parameters.decoding='ED';
     Parameters.show_info=0;
-    Parameters.store_training_data=1;
+    Parameters.store_training_data=0;
     Parameters.fracrej=fracrej;
     
     base_classifiers = ["svdd", "parzen"];
@@ -53,7 +53,7 @@ function run_experiment()
                             aggregator_result = aggregator_result'; % Transpose y_pred output (column -> line)
                         else
                             base_classifier_trained = run_base_classifier(base_classifier, X_train, y_train, fracrej, last_param);
-                            aggregator_result = run_agg_method_by_name(aggregator_name, base_classifier_trained, X_train, y_train, X_test);
+                            aggregator_result = run_agg_method_by_name(aggregator_name, base_classifier_trained, X_train, y_train, X_test, y_test);
                         end
 
                         save_fold_output([y_test aggregator_result], result_folder, sprintf("%s/%s", "Experiment1", dataset_name), n_fold, sprintf("%s_%s", base_classifier_name, aggregator_name));
@@ -64,7 +64,7 @@ function run_experiment()
                             technique_name = techniques(k);
                             fprintf("\t\t\t\tTechnique: " + technique_name + "\n");
 
-                            technique_result = run_techique_by_name(technique_name, base_classifier_trained, X_train, y_train, X_test, alpha, aggregator_name, Parameters);
+                            technique_result = run_technique_by_name(technique_name, base_classifier_trained, X_train, y_train, X_test, y_test, alpha, aggregator_name, Parameters);
 
                             save_fold_output([y_test technique_result], result_folder, sprintf("%s/%s", "Experiment1", dataset_name), n_fold, sprintf("%s_%s_%s", base_classifier_name, aggregator_name, technique_name));
                         end
