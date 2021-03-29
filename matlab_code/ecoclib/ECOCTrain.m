@@ -118,6 +118,9 @@ else
     if isfield(Parameters,'custom_decoding_params')==0
         Parameters.custom_decoding_params='';
     end
+    if isfield(Parameters,'base_binary')==0
+        Parameters.base_binary='';
+    end
 end
 
 if length(labels)~=size(data,1)
