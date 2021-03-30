@@ -1,0 +1,4105 @@
+>> run_experiment()
+Dataset: Auslan
+	Fold: #1
+	Loading dataset: ../ProcessedBases/Auslan/auslan_1_train.csv
+	Loading dataset: ../ProcessedBases/Auslan/auslan_1_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+
+   Welcome to PRTools5
+   For more information click here.
+ 
+				Accuracy: 0.23782
+				Kappa: 0.23022
+				Technique: des
+					Accuracy: 0.23782
+					Kappa: 0.23022
+				Technique: desthr
+					Accuracy: 0.23782
+					Kappa: 0.23022
+			Base classifier: parzen
+				Accuracy: 0.21832
+				Kappa: 0.21041
+				Technique: des
+					Accuracy: 0.21832
+					Kappa: 0.21041
+				Technique: desthr
+					Accuracy: 0.21832
+					Kappa: 0.21041
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.083821
+				Kappa: 0.074082
+				Technique: des
+					Accuracy: 0.083821
+					Kappa: 0.074082
+				Technique: desthr
+					Accuracy: 0.083821
+					Kappa: 0.074082
+			Base classifier: parzen
+				Accuracy: 0.019493
+				Kappa: 0.0098425
+				Technique: des
+					Accuracy: 0.019493
+					Kappa: 0.0098425
+				Technique: desthr
+					Accuracy: 0.019493
+					Kappa: 0.0098425
+	Fold: #2
+	Loading dataset: ../ProcessedBases/Auslan/auslan_2_train.csv
+	Loading dataset: ../ProcessedBases/Auslan/auslan_2_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.56335
+				Kappa: 0.55869
+				Technique: des
+					Accuracy: 0.56335
+					Kappa: 0.55869
+				Technique: desthr
+					Accuracy: 0.56335
+					Kappa: 0.55869
+			Base classifier: parzen
+				Accuracy: 0.423
+				Kappa: 0.41681
+				Technique: des
+					Accuracy: 0.423
+					Kappa: 0.41681
+				Technique: desthr
+					Accuracy: 0.423
+					Kappa: 0.41681
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.49318
+				Kappa: 0.48773
+				Technique: des
+					Accuracy: 0.49318
+					Kappa: 0.48773
+				Technique: desthr
+					Accuracy: 0.49318
+					Kappa: 0.48773
+			Base classifier: parzen
+				Accuracy: 0.16374
+				Kappa: 0.15536
+				Technique: des
+					Accuracy: 0.16374
+					Kappa: 0.15536
+				Technique: desthr
+					Accuracy: 0.16374
+					Kappa: 0.15536
+	Fold: #3
+	Loading dataset: ../ProcessedBases/Auslan/auslan_3_train.csv
+	Loading dataset: ../ProcessedBases/Auslan/auslan_3_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.69201
+				Kappa: 0.68869
+				Technique: des
+					Accuracy: 0.69201
+					Kappa: 0.68869
+				Technique: desthr
+					Accuracy: 0.69201
+					Kappa: 0.68869
+			Base classifier: parzen
+				Accuracy: 0.7076
+				Kappa: 0.70447
+				Technique: des
+					Accuracy: 0.7076
+					Kappa: 0.70447
+				Technique: desthr
+					Accuracy: 0.7076
+					Kappa: 0.70447
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.61014
+				Kappa: 0.606
+				Technique: des
+					Accuracy: 0.61014
+					Kappa: 0.606
+				Technique: desthr
+					Accuracy: 0.61014
+					Kappa: 0.606
+			Base classifier: parzen
+				Accuracy: 0.33723
+				Kappa: 0.33048
+				Technique: des
+					Accuracy: 0.33723
+					Kappa: 0.33048
+				Technique: desthr
+					Accuracy: 0.33723
+					Kappa: 0.33048
+	Fold: #4
+	Loading dataset: ../ProcessedBases/Auslan/auslan_4_train.csv
+	Loading dataset: ../ProcessedBases/Auslan/auslan_4_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.75439
+				Kappa: 0.75173
+				Technique: des
+					Accuracy: 0.75439
+					Kappa: 0.75173
+				Technique: desthr
+					Accuracy: 0.75439
+					Kappa: 0.75173
+			Base classifier: parzen
+				Accuracy: 0.76218
+				Kappa: 0.75964
+				Technique: des
+					Accuracy: 0.76218
+					Kappa: 0.75964
+				Technique: desthr
+					Accuracy: 0.76218
+					Kappa: 0.75964
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.64327
+				Kappa: 0.63948
+				Technique: des
+					Accuracy: 0.64327
+					Kappa: 0.63948
+				Technique: desthr
+					Accuracy: 0.64327
+					Kappa: 0.63948
+			Base classifier: parzen
+				Accuracy: 0.43665
+				Kappa: 0.4309
+				Technique: des
+					Accuracy: 0.43665
+					Kappa: 0.4309
+				Technique: desthr
+					Accuracy: 0.43665
+					Kappa: 0.4309
+	Fold: #5
+	Loading dataset: ../ProcessedBases/Auslan/auslan_5_train.csv
+	Loading dataset: ../ProcessedBases/Auslan/auslan_5_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.70565
+				Kappa: 0.70254
+				Technique: des
+					Accuracy: 0.70565
+					Kappa: 0.70254
+				Technique: desthr
+					Accuracy: 0.70565
+					Kappa: 0.70254
+			Base classifier: parzen
+				Accuracy: 0.78168
+				Kappa: 0.77937
+				Technique: des
+					Accuracy: 0.78168
+					Kappa: 0.77937
+				Technique: desthr
+					Accuracy: 0.78168
+					Kappa: 0.77937
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.61404
+				Kappa: 0.60988
+				Technique: des
+					Accuracy: 0.61404
+					Kappa: 0.60988
+				Technique: desthr
+					Accuracy: 0.61404
+					Kappa: 0.60988
+			Base classifier: parzen
+				Accuracy: 0.48148
+				Kappa: 0.47619
+				Technique: des
+					Accuracy: 0.48148
+					Kappa: 0.47619
+				Technique: desthr
+					Accuracy: 0.48148
+					Kappa: 0.47619
+Dataset: Autos
+	Fold: #1
+	Loading dataset: ../ProcessedBases/Autos/autos_1_train.csv
+	Loading dataset: ../ProcessedBases/Autos/autos_1_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.4375
+				Kappa: 0.20442
+				Technique: des
+					Accuracy: 0.4375
+					Kappa: 0.20442
+				Technique: desthr
+					Accuracy: 0.4375
+					Kappa: 0.20442
+			Base classifier: parzen
+				Accuracy: 0.46875
+				Kappa: 0.33578
+				Technique: des
+					Accuracy: 0.46875
+					Kappa: 0.33578
+				Technique: desthr
+					Accuracy: 0.46875
+					Kappa: 0.33578
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.46875
+				Kappa: 0.27273
+				Technique: des
+					Accuracy: 0.46875
+					Kappa: 0.27273
+				Technique: desthr
+					Accuracy: 0.46875
+					Kappa: 0.27273
+			Base classifier: parzen
+				Accuracy: 0.125
+				Kappa: 0.033441
+				Technique: des
+					Accuracy: 0.125
+					Kappa: 0.033441
+				Technique: desthr
+					Accuracy: 0.125
+					Kappa: 0.033441
+	Fold: #2
+	Loading dataset: ../ProcessedBases/Autos/autos_2_train.csv
+	Loading dataset: ../ProcessedBases/Autos/autos_2_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.5
+				Kappa: 0.34021
+				Technique: des
+					Accuracy: 0.5
+					Kappa: 0.34021
+				Technique: desthr
+					Accuracy: 0.5
+					Kappa: 0.34021
+			Base classifier: parzen
+				Accuracy: 0.375
+				Kappa: 0.25146
+				Technique: des
+					Accuracy: 0.375
+					Kappa: 0.25146
+				Technique: desthr
+					Accuracy: 0.375
+					Kappa: 0.25146
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.5
+				Kappa: 0.33333
+				Technique: des
+					Accuracy: 0.5
+					Kappa: 0.33333
+				Technique: desthr
+					Accuracy: 0.5
+					Kappa: 0.33333
+			Base classifier: parzen
+				Accuracy: 0.15625
+				Kappa: 0.10836
+				Technique: des
+					Accuracy: 0.15625
+					Kappa: 0.10836
+				Technique: desthr
+					Accuracy: 0.15625
+					Kappa: 0.10836
+	Fold: #3
+	Loading dataset: ../ProcessedBases/Autos/autos_3_train.csv
+	Loading dataset: ../ProcessedBases/Autos/autos_3_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.46875
+				Kappa: 0.33005
+				Technique: des
+					Accuracy: 0.46875
+					Kappa: 0.33005
+				Technique: desthr
+					Accuracy: 0.46875
+					Kappa: 0.33005
+			Base classifier: parzen
+				Accuracy: 0.40625
+				Kappa: 0.28972
+				Technique: des
+					Accuracy: 0.40625
+					Kappa: 0.28972
+				Technique: desthr
+					Accuracy: 0.40625
+					Kappa: 0.28972
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.4375
+				Kappa: 0.28
+				Technique: des
+					Accuracy: 0.4375
+					Kappa: 0.28
+				Technique: desthr
+					Accuracy: 0.4375
+					Kappa: 0.28
+			Base classifier: parzen
+				Accuracy: 0.34375
+				Kappa: 0.2591
+				Technique: des
+					Accuracy: 0.34375
+					Kappa: 0.2591
+				Technique: desthr
+					Accuracy: 0.34375
+					Kappa: 0.2591
+	Fold: #4
+	Loading dataset: ../ProcessedBases/Autos/autos_4_train.csv
+	Loading dataset: ../ProcessedBases/Autos/autos_4_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.65625
+				Kappa: 0.55834
+				Technique: des
+					Accuracy: 0.65625
+					Kappa: 0.55834
+				Technique: desthr
+					Accuracy: 0.65625
+					Kappa: 0.55834
+			Base classifier: parzen
+				Accuracy: 0.59375
+				Kappa: 0.49392
+				Technique: des
+					Accuracy: 0.59375
+					Kappa: 0.49392
+				Technique: desthr
+					Accuracy: 0.59375
+					Kappa: 0.49392
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.71875
+				Kappa: 0.63955
+				Technique: des
+					Accuracy: 0.71875
+					Kappa: 0.63955
+				Technique: desthr
+					Accuracy: 0.71875
+					Kappa: 0.63955
+			Base classifier: parzen
+				Accuracy: 0.09375
+				Kappa: 0.041322
+				Technique: des
+					Accuracy: 0.09375
+					Kappa: 0.041322
+				Technique: desthr
+					Accuracy: 0.09375
+					Kappa: 0.041322
+	Fold: #5
+	Loading dataset: ../ProcessedBases/Autos/autos_5_train.csv
+	Loading dataset: ../ProcessedBases/Autos/autos_5_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.32258
+				Kappa: 0.14229
+				Technique: des
+					Accuracy: 0.32258
+					Kappa: 0.14229
+				Technique: desthr
+					Accuracy: 0.32258
+					Kappa: 0.14229
+			Base classifier: parzen
+				Accuracy: 0.32258
+				Kappa: 0.2061
+				Technique: des
+					Accuracy: 0.32258
+					Kappa: 0.2061
+				Technique: desthr
+					Accuracy: 0.32258
+					Kappa: 0.2061
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.3871
+				Kappa: 0.18081
+				Technique: des
+					Accuracy: 0.3871
+					Kappa: 0.18081
+				Technique: desthr
+					Accuracy: 0.3871
+					Kappa: 0.18081
+			Base classifier: parzen
+				Accuracy: 0.096774
+				Kappa: 0
+				Technique: des
+					Accuracy: 0.096774
+					Kappa: 0
+				Technique: desthr
+					Accuracy: 0.096774
+					Kappa: 0
+Dataset: Car
+	Fold: #1
+	Loading dataset: ../ProcessedBases/Car/car_1_train.csv
+	Loading dataset: ../ProcessedBases/Car/car_1_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.71965
+				Kappa: 0.13957
+				Technique: des
+					Accuracy: 0.71965
+					Kappa: 0.13957
+				Technique: desthr
+					Accuracy: 0.71965
+					Kappa: 0.13957
+			Base classifier: parzen
+Warning: MATLAB previously crashed due to a low-level graphics error. To prevent another crash in this session, MATLAB is using software OpenGL instead of using your graphics
+hardware. To save this setting for future sessions, use the opengl('save', 'software') command. For more information, see Resolving Low-Level Graphics Issues. 
+> In matlab.graphics.internal.initialize (line 15) 
+
+				Accuracy: 0.80636
+				Kappa: 0.60321
+				Technique: des
+					Accuracy: 0.80636
+					Kappa: 0.60321
+				Technique: desthr
+					Accuracy: 0.80636
+					Kappa: 0.60321
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.78902
+				Kappa: 0.41647
+				Technique: des
+					Accuracy: 0.78902
+					Kappa: 0.41647
+				Technique: desthr
+					Accuracy: 0.78902
+					Kappa: 0.41647
+			Base classifier: parzen
+				Accuracy: 0.81214
+				Kappa: 0.61655
+				Technique: des
+					Accuracy: 0.81214
+					Kappa: 0.61655
+				Technique: desthr
+					Accuracy: 0.81214
+					Kappa: 0.61655
+	Fold: #2
+	Loading dataset: ../ProcessedBases/Car/car_2_train.csv
+	Loading dataset: ../ProcessedBases/Car/car_2_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.81503
+				Kappa: 0.55207
+				Technique: des
+					Accuracy: 0.81503
+					Kappa: 0.55207
+				Technique: desthr
+					Accuracy: 0.81503
+					Kappa: 0.55207
+			Base classifier: parzen
+				Accuracy: 0.88439
+				Kappa: 0.73213
+				Technique: des
+					Accuracy: 0.88439
+					Kappa: 0.73213
+				Technique: desthr
+					Accuracy: 0.88439
+					Kappa: 0.73213
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.90173
+				Kappa: 0.79057
+				Technique: des
+					Accuracy: 0.90173
+					Kappa: 0.79057
+				Technique: desthr
+					Accuracy: 0.90173
+					Kappa: 0.79057
+			Base classifier: parzen
+				Accuracy: 0.85549
+				Kappa: 0.70704
+				Technique: des
+					Accuracy: 0.85549
+					Kappa: 0.70704
+				Technique: desthr
+					Accuracy: 0.85549
+					Kappa: 0.70704
+	Fold: #3
+	Loading dataset: ../ProcessedBases/Car/car_3_train.csv
+	Loading dataset: ../ProcessedBases/Car/car_3_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.81503
+				Kappa: 0.52174
+				Technique: des
+					Accuracy: 0.81503
+					Kappa: 0.52174
+				Technique: desthr
+					Accuracy: 0.81503
+					Kappa: 0.52174
+			Base classifier: parzen
+				Accuracy: 0.88439
+				Kappa: 0.74665
+				Technique: des
+					Accuracy: 0.88439
+					Kappa: 0.74665
+				Technique: desthr
+					Accuracy: 0.88439
+					Kappa: 0.74665
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.71965
+				Kappa: 0.45036
+				Technique: des
+					Accuracy: 0.71965
+					Kappa: 0.45036
+				Technique: desthr
+					Accuracy: 0.71965
+					Kappa: 0.45036
+			Base classifier: parzen
+				Accuracy: 0.87861
+				Kappa: 0.73872
+				Technique: des
+					Accuracy: 0.87861
+					Kappa: 0.73872
+				Technique: desthr
+					Accuracy: 0.87861
+					Kappa: 0.73872
+	Fold: #4
+	Loading dataset: ../ProcessedBases/Car/car_4_train.csv
+	Loading dataset: ../ProcessedBases/Car/car_4_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.83478
+				Kappa: 0.57789
+				Technique: des
+					Accuracy: 0.83478
+					Kappa: 0.57789
+				Technique: desthr
+					Accuracy: 0.83478
+					Kappa: 0.57789
+			Base classifier: parzen
+				Accuracy: 0.88986
+				Kappa: 0.75294
+				Technique: des
+					Accuracy: 0.88986
+					Kappa: 0.75294
+				Technique: desthr
+					Accuracy: 0.88986
+					Kappa: 0.75294
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.62609
+				Kappa: 0.35
+				Technique: des
+					Accuracy: 0.62609
+					Kappa: 0.35
+				Technique: desthr
+					Accuracy: 0.62609
+					Kappa: 0.35
+			Base classifier: parzen
+				Accuracy: 0.91304
+				Kappa: 0.81437
+				Technique: des
+					Accuracy: 0.91304
+					Kappa: 0.81437
+				Technique: desthr
+					Accuracy: 0.91304
+					Kappa: 0.81437
+	Fold: #5
+	Loading dataset: ../ProcessedBases/Car/car_5_train.csv
+	Loading dataset: ../ProcessedBases/Car/car_5_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.81739
+				Kappa: 0.55774
+				Technique: des
+					Accuracy: 0.81739
+					Kappa: 0.55774
+				Technique: desthr
+					Accuracy: 0.81739
+					Kappa: 0.55774
+			Base classifier: parzen
+				Accuracy: 0.95652
+				Kappa: 0.9031
+				Technique: des
+					Accuracy: 0.95652
+					Kappa: 0.9031
+				Technique: desthr
+					Accuracy: 0.95652
+					Kappa: 0.9031
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.77971
+				Kappa: 0.55258
+				Technique: des
+					Accuracy: 0.77971
+					Kappa: 0.55258
+				Technique: desthr
+					Accuracy: 0.77971
+					Kappa: 0.55258
+			Base classifier: parzen
+				Accuracy: 0.89855
+				Kappa: 0.77948
+				Technique: des
+					Accuracy: 0.89855
+					Kappa: 0.77948
+				Technique: desthr
+					Accuracy: 0.89855
+					Kappa: 0.77948
+Dataset: Cleveland
+	Fold: #1
+	Loading dataset: ../ProcessedBases/Cleveland/cleveland_1_train.csv
+	Loading dataset: ../ProcessedBases/Cleveland/cleveland_1_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.63333
+				Kappa: 0.39114
+				Technique: des
+					Accuracy: 0.63333
+					Kappa: 0.39114
+				Technique: desthr
+					Accuracy: 0.63333
+					Kappa: 0.39114
+			Base classifier: parzen
+				Accuracy: 0.41667
+				Kappa: 0.20904
+				Technique: des
+					Accuracy: 0.41667
+					Kappa: 0.20904
+				Technique: desthr
+					Accuracy: 0.41667
+					Kappa: 0.20904
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.53333
+				Kappa: 0.30435
+				Technique: des
+					Accuracy: 0.53333
+					Kappa: 0.30435
+				Technique: desthr
+					Accuracy: 0.53333
+					Kappa: 0.30435
+			Base classifier: parzen
+				Accuracy: 0.36667
+				Kappa: 0.1828
+				Technique: des
+					Accuracy: 0.36667
+					Kappa: 0.1828
+				Technique: desthr
+					Accuracy: 0.36667
+					Kappa: 0.1828
+	Fold: #2
+	Loading dataset: ../ProcessedBases/Cleveland/cleveland_2_train.csv
+	Loading dataset: ../ProcessedBases/Cleveland/cleveland_2_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.63333
+				Kappa: 0.42981
+				Technique: des
+					Accuracy: 0.63333
+					Kappa: 0.42981
+				Technique: desthr
+					Accuracy: 0.63333
+					Kappa: 0.42981
+			Base classifier: parzen
+				Accuracy: 0.38333
+				Kappa: 0.16131
+				Technique: des
+					Accuracy: 0.38333
+					Kappa: 0.16131
+				Technique: desthr
+					Accuracy: 0.38333
+					Kappa: 0.16131
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.48333
+				Kappa: 0.2439
+				Technique: des
+					Accuracy: 0.48333
+					Kappa: 0.2439
+				Technique: desthr
+					Accuracy: 0.48333
+					Kappa: 0.2439
+			Base classifier: parzen
+				Accuracy: 0.35
+				Kappa: 0.12294
+				Technique: des
+					Accuracy: 0.35
+					Kappa: 0.12294
+				Technique: desthr
+					Accuracy: 0.35
+					Kappa: 0.12294
+	Fold: #3
+	Loading dataset: ../ProcessedBases/Cleveland/cleveland_3_train.csv
+	Loading dataset: ../ProcessedBases/Cleveland/cleveland_3_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.50847
+				Kappa: 0.24259
+				Technique: des
+					Accuracy: 0.50847
+					Kappa: 0.24259
+				Technique: desthr
+					Accuracy: 0.50847
+					Kappa: 0.24259
+			Base classifier: parzen
+				Accuracy: 0.44068
+				Kappa: 0.23165
+				Technique: des
+					Accuracy: 0.44068
+					Kappa: 0.23165
+				Technique: desthr
+					Accuracy: 0.44068
+					Kappa: 0.23165
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.52542
+				Kappa: 0.26741
+				Technique: des
+					Accuracy: 0.52542
+					Kappa: 0.26741
+				Technique: desthr
+					Accuracy: 0.52542
+					Kappa: 0.26741
+			Base classifier: parzen
+				Accuracy: 0.35593
+				Kappa: 0.18532
+				Technique: des
+					Accuracy: 0.35593
+					Kappa: 0.18532
+				Technique: desthr
+					Accuracy: 0.35593
+					Kappa: 0.18532
+	Fold: #4
+	Loading dataset: ../ProcessedBases/Cleveland/cleveland_4_train.csv
+	Loading dataset: ../ProcessedBases/Cleveland/cleveland_4_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.54237
+				Kappa: 0.23192
+				Technique: des
+					Accuracy: 0.54237
+					Kappa: 0.23192
+				Technique: desthr
+					Accuracy: 0.54237
+					Kappa: 0.23192
+			Base classifier: parzen
+				Accuracy: 0.45763
+				Kappa: 0.23221
+				Technique: des
+					Accuracy: 0.45763
+					Kappa: 0.23221
+				Technique: desthr
+					Accuracy: 0.45763
+					Kappa: 0.23221
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.57627
+				Kappa: 0.31934
+				Technique: des
+					Accuracy: 0.57627
+					Kappa: 0.31934
+				Technique: desthr
+					Accuracy: 0.57627
+					Kappa: 0.31934
+			Base classifier: parzen
+				Accuracy: 0.38983
+				Kappa: 0.19606
+				Technique: des
+					Accuracy: 0.38983
+					Kappa: 0.19606
+				Technique: desthr
+					Accuracy: 0.38983
+					Kappa: 0.19606
+	Fold: #5
+	Loading dataset: ../ProcessedBases/Cleveland/cleveland_5_train.csv
+	Loading dataset: ../ProcessedBases/Cleveland/cleveland_5_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.57627
+				Kappa: 0.34735
+				Technique: des
+					Accuracy: 0.57627
+					Kappa: 0.34735
+				Technique: desthr
+					Accuracy: 0.57627
+					Kappa: 0.34735
+			Base classifier: parzen
+				Accuracy: 0.49153
+				Kappa: 0.27607
+				Technique: des
+					Accuracy: 0.49153
+					Kappa: 0.27607
+				Technique: desthr
+					Accuracy: 0.49153
+					Kappa: 0.27607
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.55932
+				Kappa: 0.30273
+				Technique: des
+					Accuracy: 0.55932
+					Kappa: 0.30273
+				Technique: desthr
+					Accuracy: 0.55932
+					Kappa: 0.30273
+			Base classifier: parzen
+				Accuracy: 0.44068
+				Kappa: 0.21492
+				Technique: des
+					Accuracy: 0.44068
+					Kappa: 0.21492
+				Technique: desthr
+					Accuracy: 0.44068
+					Kappa: 0.21492
+Dataset: Dermatology
+	Fold: #1
+	Loading dataset: ../ProcessedBases/Dermatology/dermatology_1_train.csv
+	Loading dataset: ../ProcessedBases/Dermatology/dermatology_1_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.81944
+				Kappa: 0.76376
+				Technique: des
+					Accuracy: 0.81944
+					Kappa: 0.76376
+				Technique: desthr
+					Accuracy: 0.81944
+					Kappa: 0.76376
+			Base classifier: parzen
+				Accuracy: 0.88889
+				Kappa: 0.8583
+				Technique: des
+					Accuracy: 0.88889
+					Kappa: 0.8583
+				Technique: desthr
+					Accuracy: 0.88889
+					Kappa: 0.8583
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.90278
+				Kappa: 0.87589
+				Technique: des
+					Accuracy: 0.90278
+					Kappa: 0.87589
+				Technique: desthr
+					Accuracy: 0.90278
+					Kappa: 0.87589
+			Base classifier: parzen
+				Accuracy: 0.22222
+				Kappa: 0.030303
+				Technique: des
+					Accuracy: 0.22222
+					Kappa: 0.030303
+				Technique: desthr
+					Accuracy: 0.22222
+					Kappa: 0.030303
+	Fold: #2
+	Loading dataset: ../ProcessedBases/Dermatology/dermatology_2_train.csv
+	Loading dataset: ../ProcessedBases/Dermatology/dermatology_2_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.91667
+				Kappa: 0.89453
+				Technique: des
+					Accuracy: 0.91667
+					Kappa: 0.89453
+				Technique: desthr
+					Accuracy: 0.91667
+					Kappa: 0.89453
+			Base classifier: parzen
+				Accuracy: 0.93056
+				Kappa: 0.9126
+				Technique: des
+					Accuracy: 0.93056
+					Kappa: 0.9126
+				Technique: desthr
+					Accuracy: 0.93056
+					Kappa: 0.9126
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.875
+				Kappa: 0.84299
+				Technique: des
+					Accuracy: 0.875
+					Kappa: 0.84299
+				Technique: desthr
+					Accuracy: 0.875
+					Kappa: 0.84299
+			Base classifier: parzen
+				Accuracy: 0.27778
+				Kappa: 0.091703
+				Technique: des
+					Accuracy: 0.27778
+					Kappa: 0.091703
+				Technique: desthr
+					Accuracy: 0.27778
+					Kappa: 0.091703
+	Fold: #3
+	Loading dataset: ../ProcessedBases/Dermatology/dermatology_3_train.csv
+	Loading dataset: ../ProcessedBases/Dermatology/dermatology_3_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.875
+				Kappa: 0.84234
+				Technique: des
+					Accuracy: 0.875
+					Kappa: 0.84234
+				Technique: desthr
+					Accuracy: 0.875
+					Kappa: 0.84234
+			Base classifier: parzen
+				Accuracy: 0.90278
+				Kappa: 0.87797
+				Technique: des
+					Accuracy: 0.90278
+					Kappa: 0.87797
+				Technique: desthr
+					Accuracy: 0.90278
+					Kappa: 0.87797
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.86111
+				Kappa: 0.82609
+				Technique: des
+					Accuracy: 0.86111
+					Kappa: 0.82609
+				Technique: desthr
+					Accuracy: 0.86111
+					Kappa: 0.82609
+			Base classifier: parzen
+				Accuracy: 0.26389
+				Kappa: 0.090129
+				Technique: des
+					Accuracy: 0.26389
+					Kappa: 0.090129
+				Technique: desthr
+					Accuracy: 0.26389
+					Kappa: 0.090129
+	Fold: #4
+	Loading dataset: ../ProcessedBases/Dermatology/dermatology_4_train.csv
+	Loading dataset: ../ProcessedBases/Dermatology/dermatology_4_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.95775
+				Kappa: 0.94694
+				Technique: des
+					Accuracy: 0.95775
+					Kappa: 0.94694
+				Technique: desthr
+					Accuracy: 0.95775
+					Kappa: 0.94694
+			Base classifier: parzen
+				Accuracy: 0.92958
+				Kappa: 0.91136
+				Technique: des
+					Accuracy: 0.92958
+					Kappa: 0.91136
+				Technique: desthr
+					Accuracy: 0.92958
+					Kappa: 0.91136
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.95775
+				Kappa: 0.94713
+				Technique: des
+					Accuracy: 0.95775
+					Kappa: 0.94713
+				Technique: desthr
+					Accuracy: 0.95775
+					Kappa: 0.94713
+			Base classifier: parzen
+				Accuracy: 0.30986
+				Kappa: 0.13865
+				Technique: des
+					Accuracy: 0.30986
+					Kappa: 0.13865
+				Technique: desthr
+					Accuracy: 0.30986
+					Kappa: 0.13865
+	Fold: #5
+	Loading dataset: ../ProcessedBases/Dermatology/dermatology_5_train.csv
+	Loading dataset: ../ProcessedBases/Dermatology/dermatology_5_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.94366
+				Kappa: 0.92902
+				Technique: des
+					Accuracy: 0.94366
+					Kappa: 0.92902
+				Technique: desthr
+					Accuracy: 0.94366
+					Kappa: 0.92902
+			Base classifier: parzen
+				Accuracy: 0.90141
+				Kappa: 0.8755
+				Technique: des
+					Accuracy: 0.90141
+					Kappa: 0.8755
+				Technique: desthr
+					Accuracy: 0.90141
+					Kappa: 0.8755
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.91549
+				Kappa: 0.89331
+				Technique: des
+					Accuracy: 0.91549
+					Kappa: 0.89331
+				Technique: desthr
+					Accuracy: 0.91549
+					Kappa: 0.89331
+			Base classifier: parzen
+				Accuracy: 0.29577
+				Kappa: 0.12281
+				Technique: des
+					Accuracy: 0.29577
+					Kappa: 0.12281
+				Technique: desthr
+					Accuracy: 0.29577
+					Kappa: 0.12281
+Dataset: Ecoli
+	Fold: #1
+	Loading dataset: ../ProcessedBases/Ecoli/ecoli_1_train.csv
+	Loading dataset: ../ProcessedBases/Ecoli/ecoli_1_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.61765
+				Kappa: 0.50028
+				Technique: des
+					Accuracy: 0.61765
+					Kappa: 0.50028
+				Technique: desthr
+					Accuracy: 0.61765
+					Kappa: 0.50028
+			Base classifier: parzen
+				Accuracy: 0.45588
+				Kappa: 0.378
+				Technique: des
+					Accuracy: 0.45588
+					Kappa: 0.378
+				Technique: desthr
+					Accuracy: 0.45588
+					Kappa: 0.378
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.58824
+				Kappa: 0.46637
+				Technique: des
+					Accuracy: 0.58824
+					Kappa: 0.46637
+				Technique: desthr
+					Accuracy: 0.58824
+					Kappa: 0.46637
+			Base classifier: parzen
+				Accuracy: 0.47059
+				Kappa: 0.36662
+				Technique: des
+					Accuracy: 0.47059
+					Kappa: 0.36662
+				Technique: desthr
+					Accuracy: 0.47059
+					Kappa: 0.36662
+	Fold: #2
+	Loading dataset: ../ProcessedBases/Ecoli/ecoli_2_train.csv
+	Loading dataset: ../ProcessedBases/Ecoli/ecoli_2_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.58209
+				Kappa: 0.46138
+				Technique: des
+					Accuracy: 0.58209
+					Kappa: 0.46138
+				Technique: desthr
+					Accuracy: 0.58209
+					Kappa: 0.46138
+			Base classifier: parzen
+				Accuracy: 0.47761
+				Kappa: 0.37383
+				Technique: des
+					Accuracy: 0.47761
+					Kappa: 0.37383
+				Technique: desthr
+					Accuracy: 0.47761
+					Kappa: 0.37383
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.70149
+				Kappa: 0.59784
+				Technique: des
+					Accuracy: 0.70149
+					Kappa: 0.59784
+				Technique: desthr
+					Accuracy: 0.70149
+					Kappa: 0.59784
+			Base classifier: parzen
+				Accuracy: 0.58209
+				Kappa: 0.47816
+				Technique: des
+					Accuracy: 0.58209
+					Kappa: 0.47816
+				Technique: desthr
+					Accuracy: 0.58209
+					Kappa: 0.47816
+	Fold: #3
+	Loading dataset: ../ProcessedBases/Ecoli/ecoli_3_train.csv
+	Loading dataset: ../ProcessedBases/Ecoli/ecoli_3_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+Warning: Problem in feature 2 
+> In prdataset/testfeatdom (line 61)
+In prdataset/setfeatdom (line 49)
+In svdd (line 134)
+In prmap (line 231)
+In  *  (line 14)
+In sequential (line 143)
+In prmap (line 231)
+In  *  (line 14)
+In max_agg (line 7)
+In run_agg_method_by_name (line 4)
+In run_experiment (line 56) 
+Warning: There was a problem with fold #3.
+---- Feature value(s) out of range ---- 
+> In run_experiment (line 78) 
+	Fold: #4
+	Loading dataset: ../ProcessedBases/Ecoli/ecoli_4_train.csv
+	Loading dataset: ../ProcessedBases/Ecoli/ecoli_4_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.59701
+				Kappa: 0.47702
+				Technique: des
+					Accuracy: 0.59701
+					Kappa: 0.47702
+				Technique: desthr
+					Accuracy: 0.59701
+					Kappa: 0.47702
+			Base classifier: parzen
+				Accuracy: 0.34328
+				Kappa: 0.26004
+				Technique: des
+					Accuracy: 0.34328
+					Kappa: 0.26004
+				Technique: desthr
+					Accuracy: 0.34328
+					Kappa: 0.26004
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.67164
+				Kappa: 0.56183
+				Technique: des
+					Accuracy: 0.67164
+					Kappa: 0.56183
+				Technique: desthr
+					Accuracy: 0.67164
+					Kappa: 0.56183
+			Base classifier: parzen
+				Accuracy: 0.47761
+				Kappa: 0.39217
+				Technique: des
+					Accuracy: 0.47761
+					Kappa: 0.39217
+				Technique: desthr
+					Accuracy: 0.47761
+					Kappa: 0.39217
+	Fold: #5
+	Loading dataset: ../ProcessedBases/Ecoli/ecoli_5_train.csv
+	Loading dataset: ../ProcessedBases/Ecoli/ecoli_5_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.62687
+				Kappa: 0.50952
+				Technique: des
+					Accuracy: 0.62687
+					Kappa: 0.50952
+				Technique: desthr
+					Accuracy: 0.62687
+					Kappa: 0.50952
+			Base classifier: parzen
+				Accuracy: 0.44776
+				Kappa: 0.35777
+				Technique: des
+					Accuracy: 0.44776
+					Kappa: 0.35777
+				Technique: desthr
+					Accuracy: 0.44776
+					Kappa: 0.35777
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.58209
+				Kappa: 0.44985
+				Technique: des
+					Accuracy: 0.58209
+					Kappa: 0.44985
+				Technique: desthr
+					Accuracy: 0.58209
+					Kappa: 0.44985
+			Base classifier: parzen
+				Accuracy: 0.49254
+				Kappa: 0.40147
+				Technique: des
+					Accuracy: 0.49254
+					Kappa: 0.40147
+				Technique: desthr
+					Accuracy: 0.49254
+					Kappa: 0.40147
+Dataset: Flare
+	Fold: #1
+	Loading dataset: ../ProcessedBases/Flare/flare_1_train.csv
+	Loading dataset: ../ProcessedBases/Flare/flare_1_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.56542
+				Kappa: 0.44165
+				Technique: des
+					Accuracy: 0.56542
+					Kappa: 0.44165
+				Technique: desthr
+					Accuracy: 0.56542
+					Kappa: 0.44165
+			Base classifier: parzen
+				Accuracy: 0.65888
+				Kappa: 0.57447
+				Technique: des
+					Accuracy: 0.65888
+					Kappa: 0.57447
+				Technique: desthr
+					Accuracy: 0.65888
+					Kappa: 0.57447
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.57009
+				Kappa: 0.46491
+				Technique: des
+					Accuracy: 0.57009
+					Kappa: 0.46491
+				Technique: desthr
+					Accuracy: 0.57009
+					Kappa: 0.46491
+			Base classifier: parzen
+				Accuracy: 0.60748
+				Kappa: 0.51477
+				Technique: des
+					Accuracy: 0.60748
+					Kappa: 0.51477
+				Technique: desthr
+					Accuracy: 0.60748
+					Kappa: 0.51477
+	Fold: #2
+	Loading dataset: ../ProcessedBases/Flare/flare_2_train.csv
+	Loading dataset: ../ProcessedBases/Flare/flare_2_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.5493
+				Kappa: 0.41101
+				Technique: des
+					Accuracy: 0.5493
+					Kappa: 0.41101
+				Technique: desthr
+					Accuracy: 0.5493
+					Kappa: 0.41101
+			Base classifier: parzen
+				Accuracy: 0.60094
+				Kappa: 0.5146
+				Technique: des
+					Accuracy: 0.60094
+					Kappa: 0.5146
+				Technique: desthr
+					Accuracy: 0.60094
+					Kappa: 0.5146
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.50235
+				Kappa: 0.37908
+				Technique: des
+					Accuracy: 0.50235
+					Kappa: 0.37908
+				Technique: desthr
+					Accuracy: 0.50235
+					Kappa: 0.37908
+			Base classifier: parzen
+				Accuracy: 0.65728
+				Kappa: 0.57318
+				Technique: des
+					Accuracy: 0.65728
+					Kappa: 0.57318
+				Technique: desthr
+					Accuracy: 0.65728
+					Kappa: 0.57318
+	Fold: #3
+	Loading dataset: ../ProcessedBases/Flare/flare_3_train.csv
+	Loading dataset: ../ProcessedBases/Flare/flare_3_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.61033
+				Kappa: 0.49452
+				Technique: des
+					Accuracy: 0.61033
+					Kappa: 0.49452
+				Technique: desthr
+					Accuracy: 0.61033
+					Kappa: 0.49452
+			Base classifier: parzen
+				Accuracy: 0.58685
+				Kappa: 0.49472
+				Technique: des
+					Accuracy: 0.58685
+					Kappa: 0.49472
+				Technique: desthr
+					Accuracy: 0.58685
+					Kappa: 0.49472
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.52582
+				Kappa: 0.41013
+				Technique: des
+					Accuracy: 0.52582
+					Kappa: 0.41013
+				Technique: desthr
+					Accuracy: 0.52582
+					Kappa: 0.41013
+			Base classifier: parzen
+				Accuracy: 0.66197
+				Kappa: 0.5786
+				Technique: des
+					Accuracy: 0.66197
+					Kappa: 0.5786
+				Technique: desthr
+					Accuracy: 0.66197
+					Kappa: 0.5786
+	Fold: #4
+	Loading dataset: ../ProcessedBases/Flare/flare_4_train.csv
+	Loading dataset: ../ProcessedBases/Flare/flare_4_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.55399
+				Kappa: 0.42651
+				Technique: des
+					Accuracy: 0.55399
+					Kappa: 0.42651
+				Technique: desthr
+					Accuracy: 0.55399
+					Kappa: 0.42651
+			Base classifier: parzen
+				Accuracy: 0.66197
+				Kappa: 0.57681
+				Technique: des
+					Accuracy: 0.66197
+					Kappa: 0.57681
+				Technique: desthr
+					Accuracy: 0.66197
+					Kappa: 0.57681
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.4554
+				Kappa: 0.3362
+				Technique: des
+					Accuracy: 0.4554
+					Kappa: 0.3362
+				Technique: desthr
+					Accuracy: 0.4554
+					Kappa: 0.3362
+			Base classifier: parzen
+				Accuracy: 0.58216
+				Kappa: 0.48944
+				Technique: des
+					Accuracy: 0.58216
+					Kappa: 0.48944
+				Technique: desthr
+					Accuracy: 0.58216
+					Kappa: 0.48944
+	Fold: #5
+	Loading dataset: ../ProcessedBases/Flare/flare_5_train.csv
+	Loading dataset: ../ProcessedBases/Flare/flare_5_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.58216
+				Kappa: 0.45043
+				Technique: des
+					Accuracy: 0.58216
+					Kappa: 0.45043
+				Technique: desthr
+					Accuracy: 0.58216
+					Kappa: 0.45043
+			Base classifier: parzen
+				Accuracy: 0.59155
+				Kappa: 0.49865
+				Technique: des
+					Accuracy: 0.59155
+					Kappa: 0.49865
+				Technique: desthr
+					Accuracy: 0.59155
+					Kappa: 0.49865
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.55869
+				Kappa: 0.4522
+				Technique: des
+					Accuracy: 0.55869
+					Kappa: 0.4522
+				Technique: desthr
+					Accuracy: 0.55869
+					Kappa: 0.4522
+			Base classifier: parzen
+				Accuracy: 0.6385
+				Kappa: 0.55679
+				Technique: des
+					Accuracy: 0.6385
+					Kappa: 0.55679
+				Technique: desthr
+					Accuracy: 0.6385
+					Kappa: 0.55679
+Dataset: Glass
+	Fold: #1
+	Loading dataset: ../ProcessedBases/Glass/glass_1_train.csv
+	Loading dataset: ../ProcessedBases/Glass/glass_1_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+Warning: There was a problem with fold #1. Index exceeds the number of array elements (6). 
+> In run_experiment (line 78) 
+	Fold: #2
+	Loading dataset: ../ProcessedBases/Glass/glass_2_train.csv
+	Loading dataset: ../ProcessedBases/Glass/glass_2_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+Warning: There was a problem with fold #2. Index exceeds the number of array elements (6). 
+> In run_experiment (line 78) 
+	Fold: #3
+	Loading dataset: ../ProcessedBases/Glass/glass_3_train.csv
+	Loading dataset: ../ProcessedBases/Glass/glass_3_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+Warning: There was a problem with fold #3. Index exceeds the number of array elements (6). 
+> In run_experiment (line 78) 
+	Fold: #4
+	Loading dataset: ../ProcessedBases/Glass/glass_4_train.csv
+	Loading dataset: ../ProcessedBases/Glass/glass_4_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+Warning: There was a problem with fold #4. Index exceeds the number of array elements (6). 
+> In run_experiment (line 78) 
+	Fold: #5
+	Loading dataset: ../ProcessedBases/Glass/glass_5_train.csv
+	Loading dataset: ../ProcessedBases/Glass/glass_5_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+Warning: There was a problem with fold #5. Index exceeds the number of array elements (6). 
+> In run_experiment (line 78) 
+Dataset: Isolet
+	Fold: #1
+	Loading dataset: ../ProcessedBases/Isolet/isolet_1_train.csv
+	Loading dataset: ../ProcessedBases/Isolet/isolet_1_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.038462
+				Kappa: 1.4433e-17
+				Technique: des
+					Accuracy: 0.038462
+					Kappa: 1.4433e-17
+				Technique: desthr
+					Accuracy: 0.038462
+					Kappa: 1.4433e-17
+			Base classifier: parzen
+				Accuracy: 0.038462
+				Kappa: 1.4433e-17
+				Technique: des
+					Accuracy: 0.038462
+					Kappa: 1.4433e-17
+				Technique: desthr
+					Accuracy: 0.038462
+					Kappa: 1.4433e-17
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.038462
+				Kappa: 1.4433e-17
+				Technique: des
+					Accuracy: 0.038462
+					Kappa: 1.4433e-17
+				Technique: desthr
+					Accuracy: 0.038462
+					Kappa: 1.4433e-17
+			Base classifier: parzen
+				Accuracy: 0.038462
+				Kappa: 1.4433e-17
+				Technique: des
+					Accuracy: 0.038462
+					Kappa: 1.4433e-17
+				Technique: desthr
+					Accuracy: 0.038462
+					Kappa: 1.4433e-17
+	Fold: #2
+	Loading dataset: ../ProcessedBases/Isolet/isolet_2_train.csv
+	Loading dataset: ../ProcessedBases/Isolet/isolet_2_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.076923
+				Kappa: 0.04
+				Technique: des
+					Accuracy: 0.076923
+					Kappa: 0.04
+				Technique: desthr
+					Accuracy: 0.076923
+					Kappa: 0.04
+			Base classifier: parzen
+				Accuracy: 0.038462
+				Kappa: 1.4433e-17
+				Technique: des
+					Accuracy: 0.038462
+					Kappa: 1.4433e-17
+				Technique: desthr
+					Accuracy: 0.038462
+					Kappa: 1.4433e-17
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.076923
+				Kappa: 0.04
+				Technique: des
+					Accuracy: 0.076923
+					Kappa: 0.04
+				Technique: desthr
+					Accuracy: 0.076923
+					Kappa: 0.04
+			Base classifier: parzen
+				Accuracy: 0.038462
+				Kappa: 1.4433e-17
+				Technique: des
+					Accuracy: 0.038462
+					Kappa: 1.4433e-17
+				Technique: desthr
+					Accuracy: 0.038462
+					Kappa: 1.4433e-17
+	Fold: #3
+	Loading dataset: ../ProcessedBases/Isolet/isolet_3_train.csv
+	Loading dataset: ../ProcessedBases/Isolet/isolet_3_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.044872
+				Kappa: 0.0066667
+				Technique: des
+					Accuracy: 0.044872
+					Kappa: 0.0066667
+				Technique: desthr
+					Accuracy: 0.044872
+					Kappa: 0.0066667
+			Base classifier: parzen
+				Accuracy: 0.038462
+				Kappa: 1.4433e-17
+				Technique: des
+					Accuracy: 0.038462
+					Kappa: 1.4433e-17
+				Technique: desthr
+					Accuracy: 0.038462
+					Kappa: 1.4433e-17
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.044872
+				Kappa: 0.0066667
+				Technique: des
+					Accuracy: 0.044872
+					Kappa: 0.0066667
+				Technique: desthr
+					Accuracy: 0.044872
+					Kappa: 0.0066667
+			Base classifier: parzen
+				Accuracy: 0.038462
+				Kappa: 1.4433e-17
+				Technique: des
+					Accuracy: 0.038462
+					Kappa: 1.4433e-17
+				Technique: desthr
+					Accuracy: 0.038462
+					Kappa: 1.4433e-17
+	Fold: #4
+	Loading dataset: ../ProcessedBases/Isolet/isolet_4_train.csv
+	Loading dataset: ../ProcessedBases/Isolet/isolet_4_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.057692
+				Kappa: 0.02
+				Technique: des
+					Accuracy: 0.057692
+					Kappa: 0.02
+				Technique: desthr
+					Accuracy: 0.057692
+					Kappa: 0.02
+			Base classifier: parzen
+				Accuracy: 0.044872
+				Kappa: 0.0066667
+				Technique: des
+					Accuracy: 0.044872
+					Kappa: 0.0066667
+				Technique: desthr
+					Accuracy: 0.044872
+					Kappa: 0.0066667
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.057692
+				Kappa: 0.02
+				Technique: des
+					Accuracy: 0.057692
+					Kappa: 0.02
+				Technique: desthr
+					Accuracy: 0.057692
+					Kappa: 0.02
+			Base classifier: parzen
+				Accuracy: 0.038462
+				Kappa: 1.4433e-17
+				Technique: des
+					Accuracy: 0.038462
+					Kappa: 1.4433e-17
+				Technique: desthr
+					Accuracy: 0.038462
+					Kappa: 1.4433e-17
+	Fold: #5
+	Loading dataset: ../ProcessedBases/Isolet/isolet_5_train.csv
+	Loading dataset: ../ProcessedBases/Isolet/isolet_5_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.038462
+				Kappa: 1.4433e-17
+				Technique: des
+					Accuracy: 0.038462
+					Kappa: 1.4433e-17
+				Technique: desthr
+					Accuracy: 0.038462
+					Kappa: 1.4433e-17
+			Base classifier: parzen
+				Accuracy: 0.038462
+				Kappa: 1.4433e-17
+				Technique: des
+					Accuracy: 0.038462
+					Kappa: 1.4433e-17
+				Technique: desthr
+					Accuracy: 0.038462
+					Kappa: 1.4433e-17
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.038462
+				Kappa: 1.4433e-17
+				Technique: des
+					Accuracy: 0.038462
+					Kappa: 1.4433e-17
+				Technique: desthr
+					Accuracy: 0.038462
+					Kappa: 1.4433e-17
+			Base classifier: parzen
+				Accuracy: 0.038462
+				Kappa: 1.4433e-17
+				Technique: des
+					Accuracy: 0.038462
+					Kappa: 1.4433e-17
+				Technique: desthr
+					Accuracy: 0.038462
+					Kappa: 1.4433e-17
+Dataset: Led7digit
+	Fold: #1
+	Loading dataset: ../ProcessedBases/Led7digit/led7digit_1_train.csv
+	Loading dataset: ../ProcessedBases/Led7digit/led7digit_1_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.69
+				Kappa: 0.6554
+				Technique: des
+					Accuracy: 0.69
+					Kappa: 0.6554
+				Technique: desthr
+					Accuracy: 0.69
+					Kappa: 0.6554
+			Base classifier: parzen
+				Accuracy: 0.75
+				Kappa: 0.72207
+				Technique: des
+					Accuracy: 0.75
+					Kappa: 0.72207
+				Technique: desthr
+					Accuracy: 0.75
+					Kappa: 0.72207
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.66
+				Kappa: 0.62239
+				Technique: des
+					Accuracy: 0.66
+					Kappa: 0.62239
+				Technique: desthr
+					Accuracy: 0.66
+					Kappa: 0.62239
+			Base classifier: parzen
+				Accuracy: 0.73
+				Kappa: 0.6999
+				Technique: des
+					Accuracy: 0.73
+					Kappa: 0.6999
+				Technique: desthr
+					Accuracy: 0.73
+					Kappa: 0.6999
+	Fold: #2
+	Loading dataset: ../ProcessedBases/Led7digit/led7digit_2_train.csv
+	Loading dataset: ../ProcessedBases/Led7digit/led7digit_2_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.71
+				Kappa: 0.67756
+				Technique: des
+					Accuracy: 0.71
+					Kappa: 0.67756
+				Technique: desthr
+					Accuracy: 0.71
+					Kappa: 0.67756
+			Base classifier: parzen
+				Accuracy: 0.74
+				Kappa: 0.71063
+				Technique: des
+					Accuracy: 0.74
+					Kappa: 0.71063
+				Technique: desthr
+					Accuracy: 0.74
+					Kappa: 0.71063
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.75
+				Kappa: 0.72191
+				Technique: des
+					Accuracy: 0.75
+					Kappa: 0.72191
+				Technique: desthr
+					Accuracy: 0.75
+					Kappa: 0.72191
+			Base classifier: parzen
+				Accuracy: 0.74
+				Kappa: 0.71066
+				Technique: des
+					Accuracy: 0.74
+					Kappa: 0.71066
+				Technique: desthr
+					Accuracy: 0.74
+					Kappa: 0.71066
+	Fold: #3
+	Loading dataset: ../ProcessedBases/Led7digit/led7digit_3_train.csv
+	Loading dataset: ../ProcessedBases/Led7digit/led7digit_3_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.76
+				Kappa: 0.73253
+				Technique: des
+					Accuracy: 0.76
+					Kappa: 0.73253
+				Technique: desthr
+					Accuracy: 0.76
+					Kappa: 0.73253
+			Base classifier: parzen
+				Accuracy: 0.73
+				Kappa: 0.69926
+				Technique: des
+					Accuracy: 0.73
+					Kappa: 0.69926
+				Technique: desthr
+					Accuracy: 0.73
+					Kappa: 0.69926
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.75
+				Kappa: 0.72182
+				Technique: des
+					Accuracy: 0.75
+					Kappa: 0.72182
+				Technique: desthr
+					Accuracy: 0.75
+					Kappa: 0.72182
+			Base classifier: parzen
+				Accuracy: 0.71
+				Kappa: 0.67692
+				Technique: des
+					Accuracy: 0.71
+					Kappa: 0.67692
+				Technique: desthr
+					Accuracy: 0.71
+					Kappa: 0.67692
+	Fold: #4
+	Loading dataset: ../ProcessedBases/Led7digit/led7digit_4_train.csv
+	Loading dataset: ../ProcessedBases/Led7digit/led7digit_4_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.67
+				Kappa: 0.63378
+				Technique: des
+					Accuracy: 0.67
+					Kappa: 0.63378
+				Technique: desthr
+					Accuracy: 0.67
+					Kappa: 0.63378
+			Base classifier: parzen
+				Accuracy: 0.7
+				Kappa: 0.66663
+				Technique: des
+					Accuracy: 0.7
+					Kappa: 0.66663
+				Technique: desthr
+					Accuracy: 0.7
+					Kappa: 0.66663
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.72
+				Kappa: 0.68882
+				Technique: des
+					Accuracy: 0.72
+					Kappa: 0.68882
+				Technique: desthr
+					Accuracy: 0.72
+					Kappa: 0.68882
+			Base classifier: parzen
+				Accuracy: 0.69
+				Kappa: 0.65517
+				Technique: des
+					Accuracy: 0.69
+					Kappa: 0.65517
+				Technique: desthr
+					Accuracy: 0.69
+					Kappa: 0.65517
+	Fold: #5
+	Loading dataset: ../ProcessedBases/Led7digit/led7digit_5_train.csv
+	Loading dataset: ../ProcessedBases/Led7digit/led7digit_5_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.67
+				Kappa: 0.63284
+				Technique: des
+					Accuracy: 0.67
+					Kappa: 0.63284
+				Technique: desthr
+					Accuracy: 0.67
+					Kappa: 0.63284
+			Base classifier: parzen
+				Accuracy: 0.71
+				Kappa: 0.67746
+				Technique: des
+					Accuracy: 0.71
+					Kappa: 0.67746
+				Technique: desthr
+					Accuracy: 0.71
+					Kappa: 0.67746
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.7
+				Kappa: 0.66618
+				Technique: des
+					Accuracy: 0.7
+					Kappa: 0.66618
+				Technique: desthr
+					Accuracy: 0.7
+					Kappa: 0.66618
+			Base classifier: parzen
+				Accuracy: 0.72
+				Kappa: 0.68847
+				Technique: des
+					Accuracy: 0.72
+					Kappa: 0.68847
+				Technique: desthr
+					Accuracy: 0.72
+					Kappa: 0.68847
+Dataset: Letter-2
+	Fold: #1
+	Loading dataset: ../ProcessedBases/Letter-2/letter-2_1_train.csv
+	Loading dataset: ../ProcessedBases/Letter-2/letter-2_1_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+Warning: Problem in feature 2 
+> In prdataset/testfeatdom (line 61)
+In prdataset/setfeatdom (line 49)
+In svdd (line 134)
+In prmap (line 231)
+In  *  (line 14)
+In sequential (line 143)
+In prmap (line 231)
+In  *  (line 14)
+In max_agg (line 7)
+In run_agg_method_by_name (line 4)
+In run_experiment (line 56) 
+Warning: There was a problem with fold #1.
+---- Feature value(s) out of range ---- 
+> In run_experiment (line 78) 
+	Fold: #2
+	Loading dataset: ../ProcessedBases/Letter-2/letter-2_2_train.csv
+	Loading dataset: ../ProcessedBases/Letter-2/letter-2_2_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.3725
+				Kappa: 0.17948
+				Technique: des
+					Accuracy: 0.3725
+					Kappa: 0.17948
+				Technique: desthr
+					Accuracy: 0.3725
+					Kappa: 0.17948
+			Base classifier: parzen
+				Accuracy: 0.035
+				Kappa: 0.022779
+				Technique: des
+					Accuracy: 0.035
+					Kappa: 0.022779
+				Technique: desthr
+					Accuracy: 0.035
+					Kappa: 0.022779
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.3025
+				Kappa: 0.11258
+				Technique: des
+					Accuracy: 0.3025
+					Kappa: 0.11258
+				Technique: desthr
+					Accuracy: 0.3025
+					Kappa: 0.11258
+			Base classifier: parzen
+				Accuracy: 0.1425
+				Kappa: 0.10588
+				Technique: des
+					Accuracy: 0.1425
+					Kappa: 0.10588
+				Technique: desthr
+					Accuracy: 0.1425
+					Kappa: 0.10588
+	Fold: #3
+	Loading dataset: ../ProcessedBases/Letter-2/letter-2_3_train.csv
+	Loading dataset: ../ProcessedBases/Letter-2/letter-2_3_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.3575
+				Kappa: 0.15777
+				Technique: des
+					Accuracy: 0.3575
+					Kappa: 0.15777
+				Technique: desthr
+					Accuracy: 0.3575
+					Kappa: 0.15777
+			Base classifier: parzen
+				Accuracy: 0.0475
+				Kappa: 0.033259
+				Technique: des
+					Accuracy: 0.0475
+					Kappa: 0.033259
+				Technique: desthr
+					Accuracy: 0.0475
+					Kappa: 0.033259
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.3325
+				Kappa: 0.134
+				Technique: des
+					Accuracy: 0.3325
+					Kappa: 0.134
+				Technique: desthr
+					Accuracy: 0.3325
+					Kappa: 0.134
+			Base classifier: parzen
+				Accuracy: 0.1825
+				Kappa: 0.13325
+				Technique: des
+					Accuracy: 0.1825
+					Kappa: 0.13325
+				Technique: desthr
+					Accuracy: 0.1825
+					Kappa: 0.13325
+	Fold: #4
+	Loading dataset: ../ProcessedBases/Letter-2/letter-2_4_train.csv
+	Loading dataset: ../ProcessedBases/Letter-2/letter-2_4_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.4175
+				Kappa: 0.23485
+				Technique: des
+					Accuracy: 0.4175
+					Kappa: 0.23485
+				Technique: desthr
+					Accuracy: 0.4175
+					Kappa: 0.23485
+			Base classifier: parzen
+				Accuracy: 0.0375
+				Kappa: 0.026007
+				Technique: des
+					Accuracy: 0.0375
+					Kappa: 0.026007
+				Technique: desthr
+					Accuracy: 0.0375
+					Kappa: 0.026007
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.315
+				Kappa: 0.12492
+				Technique: des
+					Accuracy: 0.315
+					Kappa: 0.12492
+				Technique: desthr
+					Accuracy: 0.315
+					Kappa: 0.12492
+			Base classifier: parzen
+				Accuracy: 0.16
+				Kappa: 0.11962
+				Technique: des
+					Accuracy: 0.16
+					Kappa: 0.11962
+				Technique: desthr
+					Accuracy: 0.16
+					Kappa: 0.11962
+	Fold: #5
+	Loading dataset: ../ProcessedBases/Letter-2/letter-2_5_train.csv
+	Loading dataset: ../ProcessedBases/Letter-2/letter-2_5_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.3975
+				Kappa: 0.20231
+				Technique: des
+					Accuracy: 0.3975
+					Kappa: 0.20231
+				Technique: desthr
+					Accuracy: 0.3975
+					Kappa: 0.20231
+			Base classifier: parzen
+				Accuracy: 0.465
+				Kappa: 0.36169
+				Technique: des
+					Accuracy: 0.465
+					Kappa: 0.36169
+				Technique: desthr
+					Accuracy: 0.465
+					Kappa: 0.36169
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.3325
+				Kappa: 0.14606
+				Technique: des
+					Accuracy: 0.3325
+					Kappa: 0.14606
+				Technique: desthr
+					Accuracy: 0.3325
+					Kappa: 0.14606
+			Base classifier: parzen
+				Accuracy: 0.395
+				Kappa: 0.30663
+				Technique: des
+					Accuracy: 0.395
+					Kappa: 0.30663
+				Technique: desthr
+					Accuracy: 0.395
+					Kappa: 0.30663
+Dataset: Lymphography
+	Fold: #1
+	Loading dataset: ../ProcessedBases/Lymphography/lymphography_1_train.csv
+	Loading dataset: ../ProcessedBases/Lymphography/lymphography_1_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.8
+				Kappa: 0.60784
+				Technique: des
+					Accuracy: 0.8
+					Kappa: 0.60784
+				Technique: desthr
+					Accuracy: 0.8
+					Kappa: 0.60784
+			Base classifier: parzen
+				Accuracy: 0.66667
+				Kappa: 0.40828
+				Technique: des
+					Accuracy: 0.66667
+					Kappa: 0.40828
+				Technique: desthr
+					Accuracy: 0.66667
+					Kappa: 0.40828
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.83333
+				Kappa: 0.68153
+				Technique: des
+					Accuracy: 0.83333
+					Kappa: 0.68153
+				Technique: desthr
+					Accuracy: 0.83333
+					Kappa: 0.68153
+			Base classifier: parzen
+				Accuracy: 0.16667
+				Kappa: 0.045802
+				Technique: des
+					Accuracy: 0.16667
+					Kappa: 0.045802
+				Technique: desthr
+					Accuracy: 0.16667
+					Kappa: 0.045802
+	Fold: #2
+	Loading dataset: ../ProcessedBases/Lymphography/lymphography_2_train.csv
+	Loading dataset: ../ProcessedBases/Lymphography/lymphography_2_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.73333
+				Kappa: 0.46667
+				Technique: des
+					Accuracy: 0.73333
+					Kappa: 0.46667
+				Technique: desthr
+					Accuracy: 0.73333
+					Kappa: 0.46667
+			Base classifier: parzen
+				Accuracy: 0.033333
+				Kappa: 0
+				Technique: des
+					Accuracy: 0.033333
+					Kappa: 0
+				Technique: desthr
+					Accuracy: 0.033333
+					Kappa: 0
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.76667
+				Kappa: 0.52809
+				Technique: des
+					Accuracy: 0.76667
+					Kappa: 0.52809
+				Technique: desthr
+					Accuracy: 0.76667
+					Kappa: 0.52809
+			Base classifier: parzen
+				Accuracy: 0.033333
+				Kappa: 0
+				Technique: des
+					Accuracy: 0.033333
+					Kappa: 0
+				Technique: desthr
+					Accuracy: 0.033333
+					Kappa: 0
+	Fold: #3
+	Loading dataset: ../ProcessedBases/Lymphography/lymphography_3_train.csv
+	Loading dataset: ../ProcessedBases/Lymphography/lymphography_3_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+Warning: Problem in feature 2 
+> In prdataset/testfeatdom (line 61)
+In prdataset/setfeatdom (line 49)
+In svdd (line 134)
+In prmap (line 231)
+In  *  (line 14)
+In sequential (line 143)
+In prmap (line 231)
+In  *  (line 14)
+In max_agg (line 7)
+In run_agg_method_by_name (line 4)
+In run_experiment (line 56) 
+Warning: There was a problem with fold #3.
+---- Feature value(s) out of range ---- 
+> In run_experiment (line 78) 
+	Fold: #4
+	Loading dataset: ../ProcessedBases/Lymphography/lymphography_4_train.csv
+	Loading dataset: ../ProcessedBases/Lymphography/lymphography_4_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.72414
+				Kappa: 0.43826
+				Technique: des
+					Accuracy: 0.72414
+					Kappa: 0.43826
+				Technique: desthr
+					Accuracy: 0.72414
+					Kappa: 0.43826
+			Base classifier: parzen
+				Accuracy: 0.72414
+				Kappa: 0.52749
+				Technique: des
+					Accuracy: 0.72414
+					Kappa: 0.52749
+				Technique: desthr
+					Accuracy: 0.72414
+					Kappa: 0.52749
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.68966
+				Kappa: 0.3741
+				Technique: des
+					Accuracy: 0.68966
+					Kappa: 0.3741
+				Technique: desthr
+					Accuracy: 0.68966
+					Kappa: 0.3741
+			Base classifier: parzen
+				Accuracy: 0.37931
+				Kappa: 0.21029
+				Technique: des
+					Accuracy: 0.37931
+					Kappa: 0.21029
+				Technique: desthr
+					Accuracy: 0.37931
+					Kappa: 0.21029
+	Fold: #5
+	Loading dataset: ../ProcessedBases/Lymphography/lymphography_5_train.csv
+	Loading dataset: ../ProcessedBases/Lymphography/lymphography_5_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.75862
+				Kappa: 0.53547
+				Technique: des
+					Accuracy: 0.75862
+					Kappa: 0.53547
+				Technique: desthr
+					Accuracy: 0.75862
+					Kappa: 0.53547
+			Base classifier: parzen
+				Accuracy: 0.75862
+				Kappa: 0.5587
+				Technique: des
+					Accuracy: 0.75862
+					Kappa: 0.5587
+				Technique: desthr
+					Accuracy: 0.75862
+					Kappa: 0.5587
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.72414
+				Kappa: 0.45412
+				Technique: des
+					Accuracy: 0.72414
+					Kappa: 0.45412
+				Technique: desthr
+					Accuracy: 0.72414
+					Kappa: 0.45412
+			Base classifier: parzen
+				Accuracy: 0.27586
+				Kappa: 0.10044
+				Technique: des
+					Accuracy: 0.27586
+					Kappa: 0.10044
+				Technique: desthr
+					Accuracy: 0.27586
+					Kappa: 0.10044
+Dataset: Nursery
+	Fold: #1
+	Loading dataset: ../ProcessedBases/Nursery/nursery_1_train.csv
+	Loading dataset: ../ProcessedBases/Nursery/nursery_1_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+Warning: There was a problem with fold #1. Index exceeds the number of array elements (4). 
+> In run_experiment (line 78) 
+	Fold: #2
+	Loading dataset: ../ProcessedBases/Nursery/nursery_2_train.csv
+	Loading dataset: ../ProcessedBases/Nursery/nursery_2_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.80309
+				Kappa: 0.71739
+				Technique: des
+					Accuracy: 0.80309
+					Kappa: 0.71739
+				Technique: desthr
+					Accuracy: 0.80309
+					Kappa: 0.71739
+			Base classifier: parzen
+				Accuracy: 0
+				Kappa: 0
+				Technique: des
+					Accuracy: 0
+					Kappa: 0
+				Technique: desthr
+					Accuracy: 0
+					Kappa: 0
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.64093
+				Kappa: 0.49771
+				Technique: des
+					Accuracy: 0.64093
+					Kappa: 0.49771
+				Technique: desthr
+					Accuracy: 0.64093
+					Kappa: 0.49771
+			Base classifier: parzen
+				Accuracy: 0
+				Kappa: 0
+				Technique: des
+					Accuracy: 0
+					Kappa: 0
+				Technique: desthr
+					Accuracy: 0
+					Kappa: 0
+	Fold: #3
+	Loading dataset: ../ProcessedBases/Nursery/nursery_3_train.csv
+	Loading dataset: ../ProcessedBases/Nursery/nursery_3_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.67568
+				Kappa: 0.52758
+				Technique: des
+					Accuracy: 0.67568
+					Kappa: 0.52758
+				Technique: desthr
+					Accuracy: 0.67568
+					Kappa: 0.52758
+			Base classifier: parzen
+				Accuracy: 0
+				Kappa: 0
+				Technique: des
+					Accuracy: 0
+					Kappa: 0
+				Technique: desthr
+					Accuracy: 0
+					Kappa: 0
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.82239
+				Kappa: 0.74172
+				Technique: des
+					Accuracy: 0.82239
+					Kappa: 0.74172
+				Technique: desthr
+					Accuracy: 0.82239
+					Kappa: 0.74172
+			Base classifier: parzen
+				Accuracy: 0
+				Kappa: 0
+				Technique: des
+					Accuracy: 0
+					Kappa: 0
+				Technique: desthr
+					Accuracy: 0
+					Kappa: 0
+	Fold: #4
+	Loading dataset: ../ProcessedBases/Nursery/nursery_4_train.csv
+	Loading dataset: ../ProcessedBases/Nursery/nursery_4_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.50193
+				Kappa: 0.2722
+				Technique: des
+					Accuracy: 0.50193
+					Kappa: 0.2722
+				Technique: desthr
+					Accuracy: 0.50193
+					Kappa: 0.2722
+			Base classifier: parzen
+				Accuracy: 0
+				Kappa: 0
+				Technique: des
+					Accuracy: 0
+					Kappa: 0
+				Technique: desthr
+					Accuracy: 0
+					Kappa: 0
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.47104
+				Kappa: 0.25701
+				Technique: des
+					Accuracy: 0.47104
+					Kappa: 0.25701
+				Technique: desthr
+					Accuracy: 0.47104
+					Kappa: 0.25701
+			Base classifier: parzen
+				Accuracy: 0
+				Kappa: 0
+				Technique: des
+					Accuracy: 0
+					Kappa: 0
+				Technique: desthr
+					Accuracy: 0
+					Kappa: 0
+	Fold: #5
+	Loading dataset: ../ProcessedBases/Nursery/nursery_5_train.csv
+	Loading dataset: ../ProcessedBases/Nursery/nursery_5_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.67568
+				Kappa: 0.51899
+				Technique: des
+					Accuracy: 0.67568
+					Kappa: 0.51899
+				Technique: desthr
+					Accuracy: 0.67568
+					Kappa: 0.51899
+			Base classifier: parzen
+				Accuracy: 0
+				Kappa: 0
+				Technique: des
+					Accuracy: 0
+					Kappa: 0
+				Technique: desthr
+					Accuracy: 0
+					Kappa: 0
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.66023
+				Kappa: 0.51656
+				Technique: des
+					Accuracy: 0.66023
+					Kappa: 0.51656
+				Technique: desthr
+					Accuracy: 0.66023
+					Kappa: 0.51656
+			Base classifier: parzen
+				Accuracy: 0
+				Kappa: 0
+				Technique: des
+					Accuracy: 0
+					Kappa: 0
+				Technique: desthr
+					Accuracy: 0
+					Kappa: 0
+Dataset: Page-blocks
+	Fold: #1
+	Loading dataset: ../ProcessedBases/Page-blocks/page-blocks_1_train.csv
+	Loading dataset: ../ProcessedBases/Page-blocks/page-blocks_1_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.88182
+				Kappa: 0.55243
+				Technique: des
+					Accuracy: 0.88182
+					Kappa: 0.55243
+				Technique: desthr
+					Accuracy: 0.88182
+					Kappa: 0.55243
+			Base classifier: parzen
+				Accuracy: 0.045455
+				Kappa: 0.0033653
+				Technique: des
+					Accuracy: 0.045455
+					Kappa: 0.0033653
+				Technique: desthr
+					Accuracy: 0.045455
+					Kappa: 0.0033653
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.87273
+				Kappa: 0.53234
+				Technique: des
+					Accuracy: 0.87273
+					Kappa: 0.53234
+				Technique: desthr
+					Accuracy: 0.87273
+					Kappa: 0.53234
+			Base classifier: parzen
+				Accuracy: 0.36364
+				Kappa: 0.10162
+				Technique: des
+					Accuracy: 0.36364
+					Kappa: 0.10162
+				Technique: desthr
+					Accuracy: 0.36364
+					Kappa: 0.10162
+	Fold: #2
+	Loading dataset: ../ProcessedBases/Page-blocks/page-blocks_2_train.csv
+	Loading dataset: ../ProcessedBases/Page-blocks/page-blocks_2_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.98182
+				Kappa: 0.9061
+				Technique: des
+					Accuracy: 0.98182
+					Kappa: 0.9061
+				Technique: desthr
+					Accuracy: 0.98182
+					Kappa: 0.9061
+			Base classifier: parzen
+				Accuracy: 0.74545
+				Kappa: 0.31434
+				Technique: des
+					Accuracy: 0.74545
+					Kappa: 0.31434
+				Technique: desthr
+					Accuracy: 0.74545
+					Kappa: 0.31434
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.91818
+				Kappa: 0.6375
+				Technique: des
+					Accuracy: 0.91818
+					Kappa: 0.6375
+				Technique: desthr
+					Accuracy: 0.91818
+					Kappa: 0.6375
+			Base classifier: parzen
+				Accuracy: 0.93636
+				Kappa: 0.73747
+				Technique: des
+					Accuracy: 0.93636
+					Kappa: 0.73747
+				Technique: desthr
+					Accuracy: 0.93636
+					Kappa: 0.73747
+	Fold: #3
+	Loading dataset: ../ProcessedBases/Page-blocks/page-blocks_3_train.csv
+	Loading dataset: ../ProcessedBases/Page-blocks/page-blocks_3_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.95455
+				Kappa: 0.77431
+				Technique: des
+					Accuracy: 0.95455
+					Kappa: 0.77431
+				Technique: desthr
+					Accuracy: 0.95455
+					Kappa: 0.77431
+			Base classifier: parzen
+				Accuracy: 0.89091
+				Kappa: 0.60073
+				Technique: des
+					Accuracy: 0.89091
+					Kappa: 0.60073
+				Technique: desthr
+					Accuracy: 0.89091
+					Kappa: 0.60073
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.94545
+				Kappa: 0.75646
+				Technique: des
+					Accuracy: 0.94545
+					Kappa: 0.75646
+				Technique: desthr
+					Accuracy: 0.94545
+					Kappa: 0.75646
+			Base classifier: parzen
+				Accuracy: 0.84545
+				Kappa: 0.48027
+				Technique: des
+					Accuracy: 0.84545
+					Kappa: 0.48027
+				Technique: desthr
+					Accuracy: 0.84545
+					Kappa: 0.48027
+	Fold: #4
+	Loading dataset: ../ProcessedBases/Page-blocks/page-blocks_4_train.csv
+	Loading dataset: ../ProcessedBases/Page-blocks/page-blocks_4_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.94495
+				Kappa: 0.70514
+				Technique: des
+					Accuracy: 0.94495
+					Kappa: 0.70514
+				Technique: desthr
+					Accuracy: 0.94495
+					Kappa: 0.70514
+			Base classifier: parzen
+				Accuracy: 0.92661
+				Kappa: 0.60791
+				Technique: des
+					Accuracy: 0.92661
+					Kappa: 0.60791
+				Technique: desthr
+					Accuracy: 0.92661
+					Kappa: 0.60791
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.88991
+				Kappa: 0.54346
+				Technique: des
+					Accuracy: 0.88991
+					Kappa: 0.54346
+				Technique: desthr
+					Accuracy: 0.88991
+					Kappa: 0.54346
+			Base classifier: parzen
+				Accuracy: 0.88991
+				Kappa: 0.48075
+				Technique: des
+					Accuracy: 0.88991
+					Kappa: 0.48075
+				Technique: desthr
+					Accuracy: 0.88991
+					Kappa: 0.48075
+	Fold: #5
+	Loading dataset: ../ProcessedBases/Page-blocks/page-blocks_5_train.csv
+	Loading dataset: ../ProcessedBases/Page-blocks/page-blocks_5_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.9633
+				Kappa: 0.81864
+				Technique: des
+					Accuracy: 0.9633
+					Kappa: 0.81864
+				Technique: desthr
+					Accuracy: 0.9633
+					Kappa: 0.81864
+			Base classifier: parzen
+				Accuracy: 0.83486
+				Kappa: 0.36771
+				Technique: des
+					Accuracy: 0.83486
+					Kappa: 0.36771
+				Technique: desthr
+					Accuracy: 0.83486
+					Kappa: 0.36771
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.92661
+				Kappa: 0.68497
+				Technique: des
+					Accuracy: 0.92661
+					Kappa: 0.68497
+				Technique: desthr
+					Accuracy: 0.92661
+					Kappa: 0.68497
+			Base classifier: parzen
+				Accuracy: 0.83486
+				Kappa: 0.3673
+				Technique: des
+					Accuracy: 0.83486
+					Kappa: 0.3673
+				Technique: desthr
+					Accuracy: 0.83486
+					Kappa: 0.3673
+Dataset: Penbased
+	Fold: #1
+	Loading dataset: ../ProcessedBases/Penbased/penbased_1_train.csv
+	Loading dataset: ../ProcessedBases/Penbased/penbased_1_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.93636
+				Kappa: 0.92928
+				Technique: des
+					Accuracy: 0.93636
+					Kappa: 0.92928
+				Technique: desthr
+					Accuracy: 0.93636
+					Kappa: 0.92928
+			Base classifier: parzen
+				Accuracy: 0.92273
+				Kappa: 0.91415
+				Technique: des
+					Accuracy: 0.92273
+					Kappa: 0.91415
+				Technique: desthr
+					Accuracy: 0.92273
+					Kappa: 0.91415
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.83182
+				Kappa: 0.81305
+				Technique: des
+					Accuracy: 0.83182
+					Kappa: 0.81305
+				Technique: desthr
+					Accuracy: 0.83182
+					Kappa: 0.81305
+			Base classifier: parzen
+				Accuracy: 0.6
+				Kappa: 0.55649
+				Technique: des
+					Accuracy: 0.6
+					Kappa: 0.55649
+				Technique: desthr
+					Accuracy: 0.6
+					Kappa: 0.55649
+	Fold: #2
+	Loading dataset: ../ProcessedBases/Penbased/penbased_2_train.csv
+	Loading dataset: ../ProcessedBases/Penbased/penbased_2_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.92273
+				Kappa: 0.91409
+				Technique: des
+					Accuracy: 0.92273
+					Kappa: 0.91409
+				Technique: desthr
+					Accuracy: 0.92273
+					Kappa: 0.91409
+			Base classifier: parzen
+				Accuracy: 0.95909
+				Kappa: 0.95455
+				Technique: des
+					Accuracy: 0.95909
+					Kappa: 0.95455
+				Technique: desthr
+					Accuracy: 0.95909
+					Kappa: 0.95455
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.80909
+				Kappa: 0.7878
+				Technique: des
+					Accuracy: 0.80909
+					Kappa: 0.7878
+				Technique: desthr
+					Accuracy: 0.80909
+					Kappa: 0.7878
+			Base classifier: parzen
+				Accuracy: 0.65909
+				Kappa: 0.62043
+				Technique: des
+					Accuracy: 0.65909
+					Kappa: 0.62043
+				Technique: desthr
+					Accuracy: 0.65909
+					Kappa: 0.62043
+	Fold: #3
+	Loading dataset: ../ProcessedBases/Penbased/penbased_3_train.csv
+	Loading dataset: ../ProcessedBases/Penbased/penbased_3_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.93182
+				Kappa: 0.92422
+				Technique: des
+					Accuracy: 0.93182
+					Kappa: 0.92422
+				Technique: desthr
+					Accuracy: 0.93182
+					Kappa: 0.92422
+			Base classifier: parzen
+				Accuracy: 0.96818
+				Kappa: 0.96464
+				Technique: des
+					Accuracy: 0.96818
+					Kappa: 0.96464
+				Technique: desthr
+					Accuracy: 0.96818
+					Kappa: 0.96464
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.81364
+				Kappa: 0.79281
+				Technique: des
+					Accuracy: 0.81364
+					Kappa: 0.79281
+				Technique: desthr
+					Accuracy: 0.81364
+					Kappa: 0.79281
+			Base classifier: parzen
+				Accuracy: 0.65455
+				Kappa: 0.61683
+				Technique: des
+					Accuracy: 0.65455
+					Kappa: 0.61683
+				Technique: desthr
+					Accuracy: 0.65455
+					Kappa: 0.61683
+	Fold: #4
+	Loading dataset: ../ProcessedBases/Penbased/penbased_4_train.csv
+	Loading dataset: ../ProcessedBases/Penbased/penbased_4_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.86364
+				Kappa: 0.84851
+				Technique: des
+					Accuracy: 0.86364
+					Kappa: 0.84851
+				Technique: desthr
+					Accuracy: 0.86364
+					Kappa: 0.84851
+			Base classifier: parzen
+				Accuracy: 0.92727
+				Kappa: 0.9192
+				Technique: des
+					Accuracy: 0.92727
+					Kappa: 0.9192
+				Technique: desthr
+					Accuracy: 0.92727
+					Kappa: 0.9192
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.75
+				Kappa: 0.72213
+				Technique: des
+					Accuracy: 0.75
+					Kappa: 0.72213
+				Technique: desthr
+					Accuracy: 0.75
+					Kappa: 0.72213
+			Base classifier: parzen
+				Accuracy: 0.64545
+				Kappa: 0.60678
+				Technique: des
+					Accuracy: 0.64545
+					Kappa: 0.60678
+				Technique: desthr
+					Accuracy: 0.64545
+					Kappa: 0.60678
+	Fold: #5
+	Loading dataset: ../ProcessedBases/Penbased/penbased_5_train.csv
+	Loading dataset: ../ProcessedBases/Penbased/penbased_5_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.92273
+				Kappa: 0.91413
+				Technique: des
+					Accuracy: 0.92273
+					Kappa: 0.91413
+				Technique: desthr
+					Accuracy: 0.92273
+					Kappa: 0.91413
+			Base classifier: parzen
+				Accuracy: 0.95909
+				Kappa: 0.95453
+				Technique: des
+					Accuracy: 0.95909
+					Kappa: 0.95453
+				Technique: desthr
+					Accuracy: 0.95909
+					Kappa: 0.95453
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.8
+				Kappa: 0.77779
+				Technique: des
+					Accuracy: 0.8
+					Kappa: 0.77779
+				Technique: desthr
+					Accuracy: 0.8
+					Kappa: 0.77779
+			Base classifier: parzen
+				Accuracy: 0.64545
+				Kappa: 0.60677
+				Technique: des
+					Accuracy: 0.64545
+					Kappa: 0.60677
+				Technique: desthr
+					Accuracy: 0.64545
+					Kappa: 0.60677
+Dataset: Satimage
+	Fold: #1
+	Loading dataset: ../ProcessedBases/Satimage/satimage_1_train.csv
+	Loading dataset: ../ProcessedBases/Satimage/satimage_1_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+Warning: There was a problem with fold #1. Index exceeds the number of array elements (6). 
+> In run_experiment (line 78) 
+	Fold: #2
+	Loading dataset: ../ProcessedBases/Satimage/satimage_2_train.csv
+	Loading dataset: ../ProcessedBases/Satimage/satimage_2_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+Warning: There was a problem with fold #2. Index exceeds the number of array elements (6). 
+> In run_experiment (line 78) 
+	Fold: #3
+	Loading dataset: ../ProcessedBases/Satimage/satimage_3_train.csv
+	Loading dataset: ../ProcessedBases/Satimage/satimage_3_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+Warning: There was a problem with fold #3. Index exceeds the number of array elements (6). 
+> In run_experiment (line 78) 
+	Fold: #4
+	Loading dataset: ../ProcessedBases/Satimage/satimage_4_train.csv
+	Loading dataset: ../ProcessedBases/Satimage/satimage_4_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+Warning: There was a problem with fold #4. Index exceeds the number of array elements (6). 
+> In run_experiment (line 78) 
+	Fold: #5
+	Loading dataset: ../ProcessedBases/Satimage/satimage_5_train.csv
+	Loading dataset: ../ProcessedBases/Satimage/satimage_5_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+Warning: There was a problem with fold #5. Index exceeds the number of array elements (6). 
+> In run_experiment (line 78) 
+Dataset: Segment
+	Fold: #1
+	Loading dataset: ../ProcessedBases/Segment/segment_1_train.csv
+	Loading dataset: ../ProcessedBases/Segment/segment_1_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.73593
+				Kappa: 0.69192
+				Technique: des
+					Accuracy: 0.73593
+					Kappa: 0.69192
+				Technique: desthr
+					Accuracy: 0.73593
+					Kappa: 0.69192
+			Base classifier: parzen
+				Accuracy: 0.85931
+				Kappa: 0.83586
+				Technique: des
+					Accuracy: 0.85931
+					Kappa: 0.83586
+				Technique: desthr
+					Accuracy: 0.85931
+					Kappa: 0.83586
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.77922
+				Kappa: 0.74242
+				Technique: des
+					Accuracy: 0.77922
+					Kappa: 0.74242
+				Technique: desthr
+					Accuracy: 0.77922
+					Kappa: 0.74242
+			Base classifier: parzen
+				Accuracy: 0.69048
+				Kappa: 0.63889
+				Technique: des
+					Accuracy: 0.69048
+					Kappa: 0.63889
+				Technique: desthr
+					Accuracy: 0.69048
+					Kappa: 0.63889
+	Fold: #2
+	Loading dataset: ../ProcessedBases/Segment/segment_2_train.csv
+	Loading dataset: ../ProcessedBases/Segment/segment_2_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.71212
+				Kappa: 0.66414
+				Technique: des
+					Accuracy: 0.71212
+					Kappa: 0.66414
+				Technique: desthr
+					Accuracy: 0.71212
+					Kappa: 0.66414
+			Base classifier: parzen
+				Accuracy: 0.87013
+				Kappa: 0.84848
+				Technique: des
+					Accuracy: 0.87013
+					Kappa: 0.84848
+				Technique: desthr
+					Accuracy: 0.87013
+					Kappa: 0.84848
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.77273
+				Kappa: 0.73485
+				Technique: des
+					Accuracy: 0.77273
+					Kappa: 0.73485
+				Technique: desthr
+					Accuracy: 0.77273
+					Kappa: 0.73485
+			Base classifier: parzen
+				Accuracy: 0.77056
+				Kappa: 0.73232
+				Technique: des
+					Accuracy: 0.77056
+					Kappa: 0.73232
+				Technique: desthr
+					Accuracy: 0.77056
+					Kappa: 0.73232
+	Fold: #3
+	Loading dataset: ../ProcessedBases/Segment/segment_3_train.csv
+	Loading dataset: ../ProcessedBases/Segment/segment_3_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.69913
+				Kappa: 0.64899
+				Technique: des
+					Accuracy: 0.69913
+					Kappa: 0.64899
+				Technique: desthr
+					Accuracy: 0.69913
+					Kappa: 0.64899
+			Base classifier: parzen
+				Accuracy: 0.91342
+				Kappa: 0.89899
+				Technique: des
+					Accuracy: 0.91342
+					Kappa: 0.89899
+				Technique: desthr
+					Accuracy: 0.91342
+					Kappa: 0.89899
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.77056
+				Kappa: 0.73232
+				Technique: des
+					Accuracy: 0.77056
+					Kappa: 0.73232
+				Technique: desthr
+					Accuracy: 0.77056
+					Kappa: 0.73232
+			Base classifier: parzen
+				Accuracy: 0.73593
+				Kappa: 0.69192
+				Technique: des
+					Accuracy: 0.73593
+					Kappa: 0.69192
+				Technique: desthr
+					Accuracy: 0.73593
+					Kappa: 0.69192
+	Fold: #4
+	Loading dataset: ../ProcessedBases/Segment/segment_4_train.csv
+	Loading dataset: ../ProcessedBases/Segment/segment_4_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.671
+				Kappa: 0.61616
+				Technique: des
+					Accuracy: 0.671
+					Kappa: 0.61616
+				Technique: desthr
+					Accuracy: 0.671
+					Kappa: 0.61616
+			Base classifier: parzen
+				Accuracy: 0.86147
+				Kappa: 0.83838
+				Technique: des
+					Accuracy: 0.86147
+					Kappa: 0.83838
+				Technique: desthr
+					Accuracy: 0.86147
+					Kappa: 0.83838
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.75758
+				Kappa: 0.71717
+				Technique: des
+					Accuracy: 0.75758
+					Kappa: 0.71717
+				Technique: desthr
+					Accuracy: 0.75758
+					Kappa: 0.71717
+			Base classifier: parzen
+				Accuracy: 0.64719
+				Kappa: 0.58838
+				Technique: des
+					Accuracy: 0.64719
+					Kappa: 0.58838
+				Technique: desthr
+					Accuracy: 0.64719
+					Kappa: 0.58838
+	Fold: #5
+	Loading dataset: ../ProcessedBases/Segment/segment_5_train.csv
+	Loading dataset: ../ProcessedBases/Segment/segment_5_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.7381
+				Kappa: 0.69444
+				Technique: des
+					Accuracy: 0.7381
+					Kappa: 0.69444
+				Technique: desthr
+					Accuracy: 0.7381
+					Kappa: 0.69444
+			Base classifier: parzen
+				Accuracy: 0.8961
+				Kappa: 0.87879
+				Technique: des
+					Accuracy: 0.8961
+					Kappa: 0.87879
+				Technique: desthr
+					Accuracy: 0.8961
+					Kappa: 0.87879
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.76407
+				Kappa: 0.72475
+				Technique: des
+					Accuracy: 0.76407
+					Kappa: 0.72475
+				Technique: desthr
+					Accuracy: 0.76407
+					Kappa: 0.72475
+			Base classifier: parzen
+				Accuracy: 0.70346
+				Kappa: 0.65404
+				Technique: des
+					Accuracy: 0.70346
+					Kappa: 0.65404
+				Technique: desthr
+					Accuracy: 0.70346
+					Kappa: 0.65404
+Dataset: Shuttle
+	Fold: #1
+	Loading dataset: ../ProcessedBases/Shuttle/shuttle_1_train.csv
+	Loading dataset: ../ProcessedBases/Shuttle/shuttle_1_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.90115
+				Kappa: 0.66883
+				Technique: des
+					Accuracy: 0.90115
+					Kappa: 0.66883
+				Technique: desthr
+					Accuracy: 0.90115
+					Kappa: 0.66883
+			Base classifier: parzen
+				Accuracy: 0.97931
+				Kappa: 0.94284
+				Technique: des
+					Accuracy: 0.97931
+					Kappa: 0.94284
+				Technique: desthr
+					Accuracy: 0.97931
+					Kappa: 0.94284
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.89195
+				Kappa: 0.66176
+				Technique: des
+					Accuracy: 0.89195
+					Kappa: 0.66176
+				Technique: desthr
+					Accuracy: 0.89195
+					Kappa: 0.66176
+			Base classifier: parzen
+				Accuracy: 0.97011
+				Kappa: 0.91796
+				Technique: des
+					Accuracy: 0.97011
+					Kappa: 0.91796
+				Technique: desthr
+					Accuracy: 0.97011
+					Kappa: 0.91796
+	Fold: #2
+	Loading dataset: ../ProcessedBases/Shuttle/shuttle_2_train.csv
+	Loading dataset: ../ProcessedBases/Shuttle/shuttle_2_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.92414
+				Kappa: 0.76529
+				Technique: des
+					Accuracy: 0.92414
+					Kappa: 0.76529
+				Technique: desthr
+					Accuracy: 0.92414
+					Kappa: 0.76529
+			Base classifier: parzen
+				Accuracy: 0.98851
+				Kappa: 0.96816
+				Technique: des
+					Accuracy: 0.98851
+					Kappa: 0.96816
+				Technique: desthr
+					Accuracy: 0.98851
+					Kappa: 0.96816
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.92644
+				Kappa: 0.78905
+				Technique: des
+					Accuracy: 0.92644
+					Kappa: 0.78905
+				Technique: desthr
+					Accuracy: 0.92644
+					Kappa: 0.78905
+			Base classifier: parzen
+				Accuracy: 0.97701
+				Kappa: 0.93704
+				Technique: des
+					Accuracy: 0.97701
+					Kappa: 0.93704
+				Technique: desthr
+					Accuracy: 0.97701
+					Kappa: 0.93704
+	Fold: #3
+	Loading dataset: ../ProcessedBases/Shuttle/shuttle_3_train.csv
+	Loading dataset: ../ProcessedBases/Shuttle/shuttle_3_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.92184
+				Kappa: 0.75407
+				Technique: des
+					Accuracy: 0.92184
+					Kappa: 0.75407
+				Technique: desthr
+					Accuracy: 0.92184
+					Kappa: 0.75407
+			Base classifier: parzen
+				Accuracy: 0.95172
+				Kappa: 0.86988
+				Technique: des
+					Accuracy: 0.95172
+					Kappa: 0.86988
+				Technique: desthr
+					Accuracy: 0.95172
+					Kappa: 0.86988
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.88506
+				Kappa: 0.671
+				Technique: des
+					Accuracy: 0.88506
+					Kappa: 0.671
+				Technique: desthr
+					Accuracy: 0.88506
+					Kappa: 0.671
+			Base classifier: parzen
+				Accuracy: 0.95862
+				Kappa: 0.88817
+				Technique: des
+					Accuracy: 0.95862
+					Kappa: 0.88817
+				Technique: desthr
+					Accuracy: 0.95862
+					Kappa: 0.88817
+	Fold: #4
+	Loading dataset: ../ProcessedBases/Shuttle/shuttle_4_train.csv
+	Loading dataset: ../ProcessedBases/Shuttle/shuttle_4_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.91724
+				Kappa: 0.73703
+				Technique: des
+					Accuracy: 0.91724
+					Kappa: 0.73703
+				Technique: desthr
+					Accuracy: 0.91724
+					Kappa: 0.73703
+			Base classifier: parzen
+				Accuracy: 0.81609
+				Kappa: 0.53222
+				Technique: des
+					Accuracy: 0.81609
+					Kappa: 0.53222
+				Technique: desthr
+					Accuracy: 0.81609
+					Kappa: 0.53222
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.92644
+				Kappa: 0.79217
+				Technique: des
+					Accuracy: 0.92644
+					Kappa: 0.79217
+				Technique: desthr
+					Accuracy: 0.92644
+					Kappa: 0.79217
+			Base classifier: parzen
+				Accuracy: 0.90345
+				Kappa: 0.73044
+				Technique: des
+					Accuracy: 0.90345
+					Kappa: 0.73044
+				Technique: desthr
+					Accuracy: 0.90345
+					Kappa: 0.73044
+	Fold: #5
+	Loading dataset: ../ProcessedBases/Shuttle/shuttle_5_train.csv
+	Loading dataset: ../ProcessedBases/Shuttle/shuttle_5_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.92874
+				Kappa: 0.78435
+				Technique: des
+					Accuracy: 0.92874
+					Kappa: 0.78435
+				Technique: desthr
+					Accuracy: 0.92874
+					Kappa: 0.78435
+			Base classifier: parzen
+				Accuracy: 0.88506
+				Kappa: 0.72016
+				Technique: des
+					Accuracy: 0.88506
+					Kappa: 0.72016
+				Technique: desthr
+					Accuracy: 0.88506
+					Kappa: 0.72016
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.85517
+				Kappa: 0.61785
+				Technique: des
+					Accuracy: 0.85517
+					Kappa: 0.61785
+				Technique: desthr
+					Accuracy: 0.85517
+					Kappa: 0.61785
+			Base classifier: parzen
+				Accuracy: 0.94253
+				Kappa: 0.84811
+				Technique: des
+					Accuracy: 0.94253
+					Kappa: 0.84811
+				Technique: desthr
+					Accuracy: 0.94253
+					Kappa: 0.84811
+Dataset: Vehicle
+	Fold: #1
+	Loading dataset: ../ProcessedBases/Vehicle/vehicle_1_train.csv
+	Loading dataset: ../ProcessedBases/Vehicle/vehicle_1_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.6
+				Kappa: 0.46578
+				Technique: des
+					Accuracy: 0.6
+					Kappa: 0.46578
+				Technique: desthr
+					Accuracy: 0.6
+					Kappa: 0.46578
+			Base classifier: parzen
+				Accuracy: 0.72941
+				Kappa: 0.6392
+				Technique: des
+					Accuracy: 0.72941
+					Kappa: 0.6392
+				Technique: desthr
+					Accuracy: 0.72941
+					Kappa: 0.6392
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.62353
+				Kappa: 0.50053
+				Technique: des
+					Accuracy: 0.62353
+					Kappa: 0.50053
+				Technique: desthr
+					Accuracy: 0.62353
+					Kappa: 0.50053
+			Base classifier: parzen
+				Accuracy: 0.49412
+				Kappa: 0.32381
+				Technique: des
+					Accuracy: 0.49412
+					Kappa: 0.32381
+				Technique: desthr
+					Accuracy: 0.49412
+					Kappa: 0.32381
+	Fold: #2
+	Loading dataset: ../ProcessedBases/Vehicle/vehicle_2_train.csv
+	Loading dataset: ../ProcessedBases/Vehicle/vehicle_2_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.59763
+				Kappa: 0.46374
+				Technique: des
+					Accuracy: 0.59763
+					Kappa: 0.46374
+				Technique: desthr
+					Accuracy: 0.59763
+					Kappa: 0.46374
+			Base classifier: parzen
+				Accuracy: 0.67456
+				Kappa: 0.56622
+				Technique: des
+					Accuracy: 0.67456
+					Kappa: 0.56622
+				Technique: desthr
+					Accuracy: 0.67456
+					Kappa: 0.56622
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.54438
+				Kappa: 0.39601
+				Technique: des
+					Accuracy: 0.54438
+					Kappa: 0.39601
+				Technique: desthr
+					Accuracy: 0.54438
+					Kappa: 0.39601
+			Base classifier: parzen
+				Accuracy: 0.50296
+				Kappa: 0.33766
+				Technique: des
+					Accuracy: 0.50296
+					Kappa: 0.33766
+				Technique: desthr
+					Accuracy: 0.50296
+					Kappa: 0.33766
+	Fold: #3
+	Loading dataset: ../ProcessedBases/Vehicle/vehicle_3_train.csv
+	Loading dataset: ../ProcessedBases/Vehicle/vehicle_3_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.5858
+				Kappa: 0.44769
+				Technique: des
+					Accuracy: 0.5858
+					Kappa: 0.44769
+				Technique: desthr
+					Accuracy: 0.5858
+					Kappa: 0.44769
+			Base classifier: parzen
+				Accuracy: 0.68639
+				Kappa: 0.58139
+				Technique: des
+					Accuracy: 0.68639
+					Kappa: 0.58139
+				Technique: desthr
+					Accuracy: 0.68639
+					Kappa: 0.58139
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.53846
+				Kappa: 0.38771
+				Technique: des
+					Accuracy: 0.53846
+					Kappa: 0.38771
+				Technique: desthr
+					Accuracy: 0.53846
+					Kappa: 0.38771
+			Base classifier: parzen
+				Accuracy: 0.49112
+				Kappa: 0.31957
+				Technique: des
+					Accuracy: 0.49112
+					Kappa: 0.31957
+				Technique: desthr
+					Accuracy: 0.49112
+					Kappa: 0.31957
+	Fold: #4
+	Loading dataset: ../ProcessedBases/Vehicle/vehicle_4_train.csv
+	Loading dataset: ../ProcessedBases/Vehicle/vehicle_4_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.56805
+				Kappa: 0.42377
+				Technique: des
+					Accuracy: 0.56805
+					Kappa: 0.42377
+				Technique: desthr
+					Accuracy: 0.56805
+					Kappa: 0.42377
+			Base classifier: parzen
+				Accuracy: 0.69822
+				Kappa: 0.59762
+				Technique: des
+					Accuracy: 0.69822
+					Kappa: 0.59762
+				Technique: desthr
+					Accuracy: 0.69822
+					Kappa: 0.59762
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.55621
+				Kappa: 0.41036
+				Technique: des
+					Accuracy: 0.55621
+					Kappa: 0.41036
+				Technique: desthr
+					Accuracy: 0.55621
+					Kappa: 0.41036
+			Base classifier: parzen
+				Accuracy: 0.47337
+				Kappa: 0.29633
+				Technique: des
+					Accuracy: 0.47337
+					Kappa: 0.29633
+				Technique: desthr
+					Accuracy: 0.47337
+					Kappa: 0.29633
+	Fold: #5
+	Loading dataset: ../ProcessedBases/Vehicle/vehicle_5_train.csv
+	Loading dataset: ../ProcessedBases/Vehicle/vehicle_5_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.59763
+				Kappa: 0.46141
+				Technique: des
+					Accuracy: 0.59763
+					Kappa: 0.46141
+				Technique: desthr
+					Accuracy: 0.59763
+					Kappa: 0.46141
+			Base classifier: parzen
+				Accuracy: 0.68047
+				Kappa: 0.57307
+				Technique: des
+					Accuracy: 0.68047
+					Kappa: 0.57307
+				Technique: desthr
+					Accuracy: 0.68047
+					Kappa: 0.57307
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.57988
+				Kappa: 0.44253
+				Technique: des
+					Accuracy: 0.57988
+					Kappa: 0.44253
+				Technique: desthr
+					Accuracy: 0.57988
+					Kappa: 0.44253
+			Base classifier: parzen
+				Accuracy: 0.46746
+				Kappa: 0.28403
+				Technique: des
+					Accuracy: 0.46746
+					Kappa: 0.28403
+				Technique: desthr
+					Accuracy: 0.46746
+					Kappa: 0.28403
+Dataset: Vowel
+	Fold: #1
+	Loading dataset: ../ProcessedBases/Vowel/vowel_1_train.csv
+	Loading dataset: ../ProcessedBases/Vowel/vowel_1_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.39899
+				Kappa: 0.33889
+				Technique: des
+					Accuracy: 0.39899
+					Kappa: 0.33889
+				Technique: desthr
+					Accuracy: 0.39899
+					Kappa: 0.33889
+			Base classifier: parzen
+				Accuracy: 0.27273
+				Kappa: 0.2
+				Technique: des
+					Accuracy: 0.27273
+					Kappa: 0.2
+				Technique: desthr
+					Accuracy: 0.27273
+					Kappa: 0.2
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.40909
+				Kappa: 0.35
+				Technique: des
+					Accuracy: 0.40909
+					Kappa: 0.35
+				Technique: desthr
+					Accuracy: 0.40909
+					Kappa: 0.35
+			Base classifier: parzen
+				Accuracy: 0.090909
+				Kappa: -1.5266e-17
+				Technique: des
+					Accuracy: 0.090909
+					Kappa: -1.5266e-17
+				Technique: desthr
+					Accuracy: 0.090909
+					Kappa: -1.5266e-17
+	Fold: #2
+	Loading dataset: ../ProcessedBases/Vowel/vowel_2_train.csv
+	Loading dataset: ../ProcessedBases/Vowel/vowel_2_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.41414
+				Kappa: 0.35556
+				Technique: des
+					Accuracy: 0.41414
+					Kappa: 0.35556
+				Technique: desthr
+					Accuracy: 0.41414
+					Kappa: 0.35556
+			Base classifier: parzen
+				Accuracy: 0.44949
+				Kappa: 0.39444
+				Technique: des
+					Accuracy: 0.44949
+					Kappa: 0.39444
+				Technique: desthr
+					Accuracy: 0.44949
+					Kappa: 0.39444
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.61616
+				Kappa: 0.57778
+				Technique: des
+					Accuracy: 0.61616
+					Kappa: 0.57778
+				Technique: desthr
+					Accuracy: 0.61616
+					Kappa: 0.57778
+			Base classifier: parzen
+				Accuracy: 0.090909
+				Kappa: -1.5266e-17
+				Technique: des
+					Accuracy: 0.090909
+					Kappa: -1.5266e-17
+				Technique: desthr
+					Accuracy: 0.090909
+					Kappa: -1.5266e-17
+	Fold: #3
+	Loading dataset: ../ProcessedBases/Vowel/vowel_3_train.csv
+	Loading dataset: ../ProcessedBases/Vowel/vowel_3_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.46465
+				Kappa: 0.41111
+				Technique: des
+					Accuracy: 0.46465
+					Kappa: 0.41111
+				Technique: desthr
+					Accuracy: 0.46465
+					Kappa: 0.41111
+			Base classifier: parzen
+				Accuracy: 0.39899
+				Kappa: 0.33889
+				Technique: des
+					Accuracy: 0.39899
+					Kappa: 0.33889
+				Technique: desthr
+					Accuracy: 0.39899
+					Kappa: 0.33889
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.5404
+				Kappa: 0.49444
+				Technique: des
+					Accuracy: 0.5404
+					Kappa: 0.49444
+				Technique: desthr
+					Accuracy: 0.5404
+					Kappa: 0.49444
+			Base classifier: parzen
+				Accuracy: 0.090909
+				Kappa: -1.5266e-17
+				Technique: des
+					Accuracy: 0.090909
+					Kappa: -1.5266e-17
+				Technique: desthr
+					Accuracy: 0.090909
+					Kappa: -1.5266e-17
+	Fold: #4
+	Loading dataset: ../ProcessedBases/Vowel/vowel_4_train.csv
+	Loading dataset: ../ProcessedBases/Vowel/vowel_4_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.35354
+				Kappa: 0.28889
+				Technique: des
+					Accuracy: 0.35354
+					Kappa: 0.28889
+				Technique: desthr
+					Accuracy: 0.35354
+					Kappa: 0.28889
+			Base classifier: parzen
+				Accuracy: 0.37879
+				Kappa: 0.31667
+				Technique: des
+					Accuracy: 0.37879
+					Kappa: 0.31667
+				Technique: desthr
+					Accuracy: 0.37879
+					Kappa: 0.31667
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.56061
+				Kappa: 0.51667
+				Technique: des
+					Accuracy: 0.56061
+					Kappa: 0.51667
+				Technique: desthr
+					Accuracy: 0.56061
+					Kappa: 0.51667
+			Base classifier: parzen
+				Accuracy: 0.090909
+				Kappa: -1.5266e-17
+				Technique: des
+					Accuracy: 0.090909
+					Kappa: -1.5266e-17
+				Technique: desthr
+					Accuracy: 0.090909
+					Kappa: -1.5266e-17
+	Fold: #5
+	Loading dataset: ../ProcessedBases/Vowel/vowel_5_train.csv
+	Loading dataset: ../ProcessedBases/Vowel/vowel_5_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.34343
+				Kappa: 0.27778
+				Technique: des
+					Accuracy: 0.34343
+					Kappa: 0.27778
+				Technique: desthr
+					Accuracy: 0.34343
+					Kappa: 0.27778
+			Base classifier: parzen
+				Accuracy: 0.14646
+				Kappa: 0.061111
+				Technique: des
+					Accuracy: 0.14646
+					Kappa: 0.061111
+				Technique: desthr
+					Accuracy: 0.14646
+					Kappa: 0.061111
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.33333
+				Kappa: 0.26667
+				Technique: des
+					Accuracy: 0.33333
+					Kappa: 0.26667
+				Technique: desthr
+					Accuracy: 0.33333
+					Kappa: 0.26667
+			Base classifier: parzen
+				Accuracy: 0.090909
+				Kappa: -1.5266e-17
+				Technique: des
+					Accuracy: 0.090909
+					Kappa: -1.5266e-17
+				Technique: desthr
+					Accuracy: 0.090909
+					Kappa: -1.5266e-17
+Dataset: Yeast
+	Fold: #1
+	Loading dataset: ../ProcessedBases/Yeast/yeast_1_train.csv
+	Loading dataset: ../ProcessedBases/Yeast/yeast_1_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.3266
+				Kappa: 0.21798
+				Technique: des
+					Accuracy: 0.3266
+					Kappa: 0.21798
+				Technique: desthr
+					Accuracy: 0.3266
+					Kappa: 0.21798
+			Base classifier: parzen
+				Accuracy: 0.50505
+				Kappa: 0.37965
+				Technique: des
+					Accuracy: 0.50505
+					Kappa: 0.37965
+				Technique: desthr
+					Accuracy: 0.50505
+					Kappa: 0.37965
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.3569
+				Kappa: 0.25935
+				Technique: des
+					Accuracy: 0.3569
+					Kappa: 0.25935
+				Technique: desthr
+					Accuracy: 0.3569
+					Kappa: 0.25935
+			Base classifier: parzen
+				Accuracy: 0.46801
+				Kappa: 0.35909
+				Technique: des
+					Accuracy: 0.46801
+					Kappa: 0.35909
+				Technique: desthr
+					Accuracy: 0.46801
+					Kappa: 0.35909
+	Fold: #2
+	Loading dataset: ../ProcessedBases/Yeast/yeast_2_train.csv
+	Loading dataset: ../ProcessedBases/Yeast/yeast_2_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.40404
+				Kappa: 0.2883
+				Technique: des
+					Accuracy: 0.40404
+					Kappa: 0.2883
+				Technique: desthr
+					Accuracy: 0.40404
+					Kappa: 0.2883
+			Base classifier: parzen
+				Accuracy: 0.48822
+				Kappa: 0.36869
+				Technique: des
+					Accuracy: 0.48822
+					Kappa: 0.36869
+				Technique: desthr
+					Accuracy: 0.48822
+					Kappa: 0.36869
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.36364
+				Kappa: 0.26549
+				Technique: des
+					Accuracy: 0.36364
+					Kappa: 0.26549
+				Technique: desthr
+					Accuracy: 0.36364
+					Kappa: 0.26549
+			Base classifier: parzen
+				Accuracy: 0.45791
+				Kappa: 0.35401
+				Technique: des
+					Accuracy: 0.45791
+					Kappa: 0.35401
+				Technique: desthr
+					Accuracy: 0.45791
+					Kappa: 0.35401
+	Fold: #3
+	Loading dataset: ../ProcessedBases/Yeast/yeast_3_train.csv
+	Loading dataset: ../ProcessedBases/Yeast/yeast_3_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.3468
+				Kappa: 0.21546
+				Technique: des
+					Accuracy: 0.3468
+					Kappa: 0.21546
+				Technique: desthr
+					Accuracy: 0.3468
+					Kappa: 0.21546
+			Base classifier: parzen
+				Accuracy: 0.42088
+				Kappa: 0.28613
+				Technique: des
+					Accuracy: 0.42088
+					Kappa: 0.28613
+				Technique: desthr
+					Accuracy: 0.42088
+					Kappa: 0.28613
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.36364
+				Kappa: 0.23837
+				Technique: des
+					Accuracy: 0.36364
+					Kappa: 0.23837
+				Technique: desthr
+					Accuracy: 0.36364
+					Kappa: 0.23837
+			Base classifier: parzen
+				Accuracy: 0.35354
+				Kappa: 0.22488
+				Technique: des
+					Accuracy: 0.35354
+					Kappa: 0.22488
+				Technique: desthr
+					Accuracy: 0.35354
+					Kappa: 0.22488
+	Fold: #4
+	Loading dataset: ../ProcessedBases/Yeast/yeast_4_train.csv
+	Loading dataset: ../ProcessedBases/Yeast/yeast_4_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.33333
+				Kappa: 0.22691
+				Technique: des
+					Accuracy: 0.33333
+					Kappa: 0.22691
+				Technique: desthr
+					Accuracy: 0.33333
+					Kappa: 0.22691
+			Base classifier: parzen
+				Accuracy: 0.52525
+				Kappa: 0.38215
+				Technique: des
+					Accuracy: 0.52525
+					Kappa: 0.38215
+				Technique: desthr
+					Accuracy: 0.52525
+					Kappa: 0.38215
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.32323
+				Kappa: 0.21959
+				Technique: des
+					Accuracy: 0.32323
+					Kappa: 0.21959
+				Technique: desthr
+					Accuracy: 0.32323
+					Kappa: 0.21959
+			Base classifier: parzen
+				Accuracy: 0.45791
+				Kappa: 0.31987
+				Technique: des
+					Accuracy: 0.45791
+					Kappa: 0.31987
+				Technique: desthr
+					Accuracy: 0.45791
+					Kappa: 0.31987
+	Fold: #5
+	Loading dataset: ../ProcessedBases/Yeast/yeast_5_train.csv
+	Loading dataset: ../ProcessedBases/Yeast/yeast_5_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.40541
+				Kappa: 0.30267
+				Technique: des
+					Accuracy: 0.40541
+					Kappa: 0.30267
+				Technique: desthr
+					Accuracy: 0.40541
+					Kappa: 0.30267
+			Base classifier: parzen
+				Accuracy: 0.48986
+				Kappa: 0.36164
+				Technique: des
+					Accuracy: 0.48986
+					Kappa: 0.36164
+				Technique: desthr
+					Accuracy: 0.48986
+					Kappa: 0.36164
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.31081
+				Kappa: 0.21733
+				Technique: des
+					Accuracy: 0.31081
+					Kappa: 0.21733
+				Technique: desthr
+					Accuracy: 0.31081
+					Kappa: 0.21733
+			Base classifier: parzen
+				Accuracy: 0.45946
+				Kappa: 0.34664
+				Technique: des
+					Accuracy: 0.45946
+					Kappa: 0.34664
+				Technique: desthr
+					Accuracy: 0.45946
+					Kappa: 0.34664
+Dataset: Zoo
+	Fold: #1
+	Loading dataset: ../ProcessedBases/Zoo/zoo_1_train.csv
+	Loading dataset: ../ProcessedBases/Zoo/zoo_1_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.90476
+				Kappa: 0.87273
+				Technique: des
+					Accuracy: 0.90476
+					Kappa: 0.87273
+				Technique: desthr
+					Accuracy: 0.90476
+					Kappa: 0.87273
+			Base classifier: parzen
+				Accuracy: 0.95238
+				Kappa: 0.93787
+				Technique: des
+					Accuracy: 0.95238
+					Kappa: 0.93787
+				Technique: desthr
+					Accuracy: 0.95238
+					Kappa: 0.93787
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 1
+				Kappa: 1
+				Technique: des
+					Accuracy: 1
+					Kappa: 1
+				Technique: desthr
+					Accuracy: 1
+					Kappa: 1
+			Base classifier: parzen
+				Accuracy: 0.71429
+				Kappa: 0.64903
+				Technique: des
+					Accuracy: 0.71429
+					Kappa: 0.64903
+				Technique: desthr
+					Accuracy: 0.71429
+					Kappa: 0.64903
+	Fold: #2
+	Loading dataset: ../ProcessedBases/Zoo/zoo_2_train.csv
+	Loading dataset: ../ProcessedBases/Zoo/zoo_2_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.9
+				Kappa: 0.86755
+				Technique: des
+					Accuracy: 0.9
+					Kappa: 0.86755
+				Technique: desthr
+					Accuracy: 0.9
+					Kappa: 0.86755
+			Base classifier: parzen
+				Accuracy: 0.9
+				Kappa: 0.86755
+				Technique: des
+					Accuracy: 0.9
+					Kappa: 0.86755
+				Technique: desthr
+					Accuracy: 0.9
+					Kappa: 0.86755
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.9
+				Kappa: 0.86755
+				Technique: des
+					Accuracy: 0.9
+					Kappa: 0.86755
+				Technique: desthr
+					Accuracy: 0.9
+					Kappa: 0.86755
+			Base classifier: parzen
+				Accuracy: 0.65
+				Kappa: 0.57831
+				Technique: des
+					Accuracy: 0.65
+					Kappa: 0.57831
+				Technique: desthr
+					Accuracy: 0.65
+					Kappa: 0.57831
+	Fold: #3
+	Loading dataset: ../ProcessedBases/Zoo/zoo_3_train.csv
+	Loading dataset: ../ProcessedBases/Zoo/zoo_3_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.85
+				Kappa: 0.79522
+				Technique: des
+					Accuracy: 0.85
+					Kappa: 0.79522
+				Technique: desthr
+					Accuracy: 0.85
+					Kappa: 0.79522
+			Base classifier: parzen
+				Accuracy: 0.85
+				Kappa: 0.80707
+				Technique: des
+					Accuracy: 0.85
+					Kappa: 0.80707
+				Technique: desthr
+					Accuracy: 0.85
+					Kappa: 0.80707
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 1
+				Kappa: 1
+				Technique: des
+					Accuracy: 1
+					Kappa: 1
+				Technique: desthr
+					Accuracy: 1
+					Kappa: 1
+			Base classifier: parzen
+				Accuracy: 0.65
+				Kappa: 0.56656
+				Technique: des
+					Accuracy: 0.65
+					Kappa: 0.56656
+				Technique: desthr
+					Accuracy: 0.65
+					Kappa: 0.56656
+	Fold: #4
+	Loading dataset: ../ProcessedBases/Zoo/zoo_4_train.csv
+	Loading dataset: ../ProcessedBases/Zoo/zoo_4_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.9
+				Kappa: 0.86755
+				Technique: des
+					Accuracy: 0.9
+					Kappa: 0.86755
+				Technique: desthr
+					Accuracy: 0.9
+					Kappa: 0.86755
+			Base classifier: parzen
+				Accuracy: 0.9
+				Kappa: 0.86755
+				Technique: des
+					Accuracy: 0.9
+					Kappa: 0.86755
+				Technique: desthr
+					Accuracy: 0.9
+					Kappa: 0.86755
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.9
+				Kappa: 0.86667
+				Technique: des
+					Accuracy: 0.9
+					Kappa: 0.86667
+				Technique: desthr
+					Accuracy: 0.9
+					Kappa: 0.86667
+			Base classifier: parzen
+				Accuracy: 0.8
+				Kappa: 0.75078
+				Technique: des
+					Accuracy: 0.8
+					Kappa: 0.75078
+				Technique: desthr
+					Accuracy: 0.8
+					Kappa: 0.75078
+	Fold: #5
+	Loading dataset: ../ProcessedBases/Zoo/zoo_5_train.csv
+	Loading dataset: ../ProcessedBases/Zoo/zoo_5_test.csv
+		Aggregator function: max_agg
+			Base classifier: svdd
+				Accuracy: 0.95
+				Kappa: 0.93464
+				Technique: des
+					Accuracy: 0.95
+					Kappa: 0.93464
+				Technique: desthr
+					Accuracy: 0.95
+					Kappa: 0.93464
+			Base classifier: parzen
+				Accuracy: 0.9
+				Kappa: 0.87055
+				Technique: des
+					Accuracy: 0.9
+					Kappa: 0.87055
+				Technique: desthr
+					Accuracy: 0.9
+					Kappa: 0.87055
+		Aggregator function: decision_templates_agg
+			Base classifier: svdd
+				Accuracy: 0.95
+				Kappa: 0.93464
+				Technique: des
+					Accuracy: 0.95
+					Kappa: 0.93464
+				Technique: desthr
+					Accuracy: 0.95
+					Kappa: 0.93464
+			Base classifier: parzen
+				Accuracy: 0.8
+				Kappa: 0.74684
+				Technique: des
+					Accuracy: 0.8
+					Kappa: 0.74684
+				Technique: desthr
+					Accuracy: 0.8
+					Kappa: 0.74684
+>> 
