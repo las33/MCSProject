@@ -32,12 +32,12 @@ function run_experiment3()
                         fprintf("\t\t\tBase classifier: " + base_classifier_name + "\n");
                         
                         for k = 1:length(occ_strategies)
-                            occ_strategie_name = occ_strategies(j);
+                            occ_strategie_name = occ_strategies(k);
                             fprintf("\t\t\t\tOCC: " + occ_strategie_name + "\n");
                             
                             base_classifier_trained = run_occ_strategy(occ_strategie_name, base_classifier_name, X_train, y_train);
                             
-                            if occ_strategie_name == "ovo"
+                            if occ_strategie_name == "ovo" && aggregator_name == "max_agg"
                                 aggregator_name = "majority_agg";
                             end
                             

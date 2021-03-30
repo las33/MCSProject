@@ -6,8 +6,8 @@ function run_experiment()
     width_param = [];
     N = 20;
     alpha = 0.1;
-    root_dataset_name = "ProcessedBases_MinMax";
-    result_folder = "results_MinMax_prunned";
+    root_dataset_name = "ProcessedBases";
+    result_folder = "results";
     
     clear Parameters;
     Parameters.coding='DECOC';
@@ -17,7 +17,7 @@ function run_experiment()
     Parameters.fracrej=fracrej;
     
     base_classifiers = ["svdd", "parzen"];
-    aggregators = ["max_agg", "decision_templates_agg", "ecoc_agg"];
+    aggregators = ["max_agg", "decision_templates_agg"];
     techniques = ["des", "desthr"];
     
     for d = 1:length(datasets)
@@ -57,6 +57,8 @@ function run_experiment()
                         end
 
                         save_fold_output([y_test aggregator_result], result_folder, sprintf("%s/%s", "Experiment1", dataset_name), n_fold, sprintf("%s_%s", base_classifier_name, aggregator_name));
+                        fprintf("\t\t\t\tAccuracy: " + accuracy_score(y_test, aggregator_result) + "\n")
+                        fprintf("\t\t\t\tKappa: " + kappa_score(y_test, aggregator_result) + "\n")
                         
                         for k = 1:length(techniques)
                             % run technique using base_classifier trained and aggregator
@@ -67,6 +69,8 @@ function run_experiment()
                             technique_result = run_technique_by_name(technique_name, base_classifier_trained, X_train, y_train, X_test, y_test, alpha, aggregator_name, Parameters);
 
                             save_fold_output([y_test technique_result], result_folder, sprintf("%s/%s", "Experiment1", dataset_name), n_fold, sprintf("%s_%s_%s", base_classifier_name, aggregator_name, technique_name));
+                            fprintf("\t\t\t\t\tAccuracy: " + accuracy_score(y_test, aggregator_result) + "\n")
+                            fprintf("\t\t\t\t\tKappa: " + kappa_score(y_test, aggregator_result) + "\n")
                         end
                     end
                 end
