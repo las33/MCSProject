@@ -27,6 +27,21 @@ feature=0;
 x=zeros([1 size(ECOC,2)]);
 
 
+if(size(Parameters.removed_clfs, 1) > 0)
+
+    new_length = size(Classifiers,2);
+    NEW_ECOC = zeros([size(ECOC,1) new_length]);   
+    j = 1;
+    for i=1:size(ECOC,2)
+        if(ismember(i,Parameters.removed_clfs) ~= 1)
+           NEW_ECOC(:, j) = ECOC(:,i);            
+           j = j+1;            
+        end       
+    end
+    
+    ECOC = NEW_ECOC; 
+end
+
 
 if(size(Parameters.removed_classes, 1) > 0)
 
@@ -46,26 +61,8 @@ if(size(Parameters.removed_classes, 1) > 0)
     classes = new_classes;    
 end
 
-if(size(Parameters.removed_clfs, 1) > 0)
 
-    new_length = size(Classifiers,2) - length(Parameters.removed_clfs);
-    NEW_ECOC = zeros([size(ECOC,1) new_length]);
-    new_clfs=[];
-    j = 1;
-    for i=1:size(Classifiers,2)
-        if(ismember(i,Parameters.removed_clfs) ~= 1)
-           NEW_ECOC(:, j) = ECOC(:,i);
-           
-           new_clfs{length(new_clfs)+1}.classifier=Classifiers{i}.classifier;    
-           new_clfs{length(new_clfs)}.label = Classifiers{i}.label; 
-            
-           j = j+1;            
-        end       
-    end
-    
-    ECOC = NEW_ECOC;
-    Classifiers = new_clfs;    
-end
+
 
 switch decoding
     case 'BDEN', % setting the parameters for BDEN decoding strategy
