@@ -6,7 +6,8 @@
 
 %classifiers_ovo = ovo('svc', data_train, labels_train);
 
-classifiers_ova = ova('svc', data_train, labels_train);
+%classifiers_ova = ova('svc', data_train, labels_train);
+classifiers_ova = ova('tree', data_train, labels_train);
 
 %Se for ovo usar majority_agg no lugar do max
 %y_pred = max_agg(classifiers_ova, data_test) ;
@@ -14,5 +15,5 @@ y_pred = decision_templates_agg(classifiers_ova, data_train, labels_train, data_
 
 hits = y_pred == labels_test;
 
-num = sum(hits == 1)/length(labels_test);
-num;
+acc_ova = sum(hits == 1)/length(labels_test);
+

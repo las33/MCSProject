@@ -2,7 +2,7 @@ function classifiers = run_base_classifier_ecoc(base_classifier, X_train, y_trai
     classifiers = struct();
     pr = prdataset(X_train, y_train);
     for i = 1:size(ECOC,2)
-        if(strcmp(clf_bin, 'svm'))
+        if(strcmp(clf_bin, 'svm') || strcmp(clf_bin, 'tree') )
             labels = [];
             if(coding == 'OneVsOne')
                 [pos, neg] = get_labels_OneVsOne(ECOC(:,i));
@@ -14,7 +14,15 @@ function classifiers = run_base_classifier_ecoc(base_classifier, X_train, y_trai
                labels = get_labels(ECOC(:,i));
                dataset = oc_set(pr, labels); 
             end
-            clf = dataset*svc(proxm('p',3));
+            
+            if(strcmp(clf_bin, 'svm'))
+                clf = dataset*svc(proxm('p',3));               
+            end
+            
+            if(strcmp(clf_bin, 'tree'))
+                clf = dataset*treec('maxcrit',0,[]);                
+            end
+            
             classifiers(i).classifier = clf;
             classifiers(i).label = labels; 
         else
