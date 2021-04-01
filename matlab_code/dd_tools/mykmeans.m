@@ -32,7 +32,13 @@ n = size(x,1);
 
 % use k random objects as initialization
 I = randperm(n);
-means = x(I(1:k),:);
+
+if(k > n)
+    means = x(I(1:n),:);
+else
+   means = x(I(1:k),:);
+end
+
 
 % label all objects:
 D = distm(x,means);
