@@ -2,8 +2,8 @@ function run_experiment2()
     n_folds = 5;
     datasets = ["Auslan", "Autos", "Car", "Cleveland", "Dermatology", "Ecoli", "Flare", "Glass", "Isolet", "Led7digit", "Letter-2", "Lymphography", "Nursery", "Page-blocks", "Penbased", "Satimage", "Segment", "Shuttle", "Vehicle", "Vowel", "Yeast", "Zoo"];
     
-    root_dataset_name = "ProcessedBases_MinMax";
-    result_folder = "results_MinMax_prunned";
+    root_dataset_name = "ProcessedBases";
+    result_folder = "results";
     
     K = [0, 1, 3];
     

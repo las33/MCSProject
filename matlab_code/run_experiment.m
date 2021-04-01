@@ -17,7 +17,7 @@ function run_experiment()
     Parameters.fracrej=fracrej;
     
     base_classifiers = ["svdd", "parzen"];
-    aggregators = ["max_agg", "decision_templates_agg"];
+    aggregators = ["max_agg", "decision_templates_agg", "ecoc_agg"];
     techniques = ["des", "desthr"];
     
     for d = 1:length(datasets)
