@@ -5,5 +5,7 @@ function classifier = get_classifier_by_name(classifier_name)
         classifier = parzen_dd;
     elseif classifier_name == "mst"
         classifier = mst_dd;
+    elseif classifier_name == "kmeans"
+        classifier = kmeans_dd;
     end
 end

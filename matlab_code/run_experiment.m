@@ -1,10 +1,11 @@
 function run_experiment()
     n_folds = 5;
-    datasets = ["Auslan", "Autos", "Car", "Cleveland", "Dermatology", "Ecoli", "Flare", "Glass", "Isolet", "Led7digit", "Letter-2", "Lymphography", "Nursery", "Page-blocks", "Penbased", "Satimage", "Segment", "Shuttle", "Vehicle", "Vowel", "Yeast", "Zoo"];
+    datasets = ["Autos", "Car", "Cleveland", "Dermatology", "Ecoli", "Flare", "Glass", "Isolet", "Led7digit", "Letter-2", "Lymphography", "Nursery", "Page-blocks", "Penbased", "Satimage", "Segment", "Shuttle", "Vehicle", "Vowel", "Yeast", "Zoo", "Auslan"];
     fracrej = 0.05;
     sigma = 5;
     width_param = [];
     N = 20;
+    K = 5;
     alpha = 0.1;
     root_dataset_name = "ProcessedBases";
     result_folder = "results";
@@ -16,7 +17,7 @@ function run_experiment()
     Parameters.store_training_data=0;
     Parameters.fracrej=fracrej;
     
-    base_classifiers = ["svdd", "parzen"];
+    base_classifiers = ["svdd", "parzen", "kmeans"];
     aggregators = ["max_agg", "decision_templates_agg", "ecoc_agg"];
     techniques = ["des", "desthr"];
     
@@ -87,6 +88,8 @@ function run_experiment()
             param = width_param;
         elseif classifier_name == "mst"
             param = N;
+        elseif classifier_name == "kmeans"
+            param = K;
         end
     end
 end
