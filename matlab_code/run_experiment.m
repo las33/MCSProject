@@ -18,7 +18,8 @@ function run_experiment()
     Parameters.fracrej=fracrej;
     
     base_classifiers = ["svdd", "parzen", "kmeans"];
-    aggregators = ["max_agg", "decision_templates_agg", "ecoc_agg"];
+    aggregators = ["decision_templates_agg"];
+    %aggregators = ["max_agg", "decision_templates_agg", "ecoc_agg"];
     techniques = ["des", "desthr"];
     
     for d = 1:length(datasets)
@@ -53,8 +54,9 @@ function run_experiment()
                             [~, aggregator_result, ~, ~] = ECOCTest(X_test, base_classifier_trained, Parameters, y_test);
                             aggregator_result = aggregator_result'; % Transpose y_pred output (column -> line)
                         else
+                            Parameters.removed_classes = [];
                             base_classifier_trained = run_base_classifier(base_classifier, X_train, y_train, fracrej, last_param);
-                            aggregator_result = run_agg_method_by_name(aggregator_name, base_classifier_trained, X_train, y_train, X_test, y_test);
+                            aggregator_result = run_agg_method_by_name(aggregator_name, base_classifier_trained, X_train, y_train, X_test, y_test, Parameters);
                         end
 
                         save_fold_output([y_test aggregator_result], result_folder, sprintf("%s/%s", "Experiment1", dataset_name), n_fold, sprintf("%s_%s", base_classifier_name, aggregator_name));
@@ -70,8 +72,8 @@ function run_experiment()
                             technique_result = run_technique_by_name(technique_name, base_classifier_trained, X_train, y_train, X_test, y_test, alpha, aggregator_name, Parameters);
 
                             save_fold_output([y_test technique_result], result_folder, sprintf("%s/%s", "Experiment1", dataset_name), n_fold, sprintf("%s_%s_%s", base_classifier_name, aggregator_name, technique_name));
-                            fprintf("\t\t\t\t\tAccuracy: " + accuracy_score(y_test, aggregator_result) + "\n")
-                            fprintf("\t\t\t\t\tKappa: " + kappa_score(y_test, aggregator_result) + "\n")
+                            fprintf("\t\t\t\t\tAccuracy: " + accuracy_score(y_test, technique_result) + "\n")
+                            fprintf("\t\t\t\t\tKappa: " + kappa_score(y_test, technique_result) + "\n")
                         end
                     end
                 end

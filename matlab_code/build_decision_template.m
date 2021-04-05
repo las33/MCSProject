@@ -1,5 +1,5 @@
-function [decision_template, output_labels] = build_decision_template(decision_profile, input_labels)
-    output_labels = unique(input_labels);
+function [decision_template, output_labels] = build_decision_template(decision_profile, input_labels, removed_classes)
+    output_labels =  setdiff(unique(input_labels), removed_classes);
     
     decision_template = zeros(length(output_labels), size(decision_profile, 2));
     

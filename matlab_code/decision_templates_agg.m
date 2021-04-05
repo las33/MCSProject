@@ -1,7 +1,7 @@
-function y_pred = decision_templates_agg(classifiers, X_train, y_train, X_test)
+function y_pred = decision_templates_agg(classifiers, X_train, y_train, X_test, removed_classes)
     decision_profile_train = build_decision_profile(classifiers, X_train);
    
-    [decision_template_train, tamplates_labels] = build_decision_template(decision_profile_train, y_train);
+    [decision_template_train, tamplates_labels] = build_decision_template(decision_profile_train, y_train, removed_classes);
     
     decision_profile_test = build_decision_profile(classifiers, X_test);
     
