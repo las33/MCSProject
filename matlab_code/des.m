@@ -25,7 +25,7 @@ function y_pred = des(base_classifiers, X_train, y_train, X_test, y_test, alpha,
             unique_neigh_labels = unique(neigh_labels);            
             [classifiers, excluded_indexes] = get_classifiers_by_label(base_classifiers, unique_neigh_labels, agg_method_name);
             
-           if ~isempty(setdiff(classes, unique_neigh_labels))
+            if ~isempty(setdiff(classes, unique_neigh_labels))
                 Parameters.removed_classes = setdiff(classes, unique_neigh_labels);
             else
                 Parameters.removed_classes = [];
