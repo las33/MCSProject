@@ -1,3 +1,7 @@
 Technique,Fold1,Fold2,Fold3,Fold4,Fold5,mean,std
-svc_max_agg_ova_desthr,0.74,0.74,0.76,0.69,0.7,0.726,0.026532998322843223
+svc_decision_templates_agg_ovo_desthr,0.73,0.76,0.74,0.67,0.75,0.73,0.03162277660168378
+svc_decision_templates_agg_ova_desthr,0.74,0.74,0.75,0.7,0.69,0.724,0.024166091947189165
 svc_majority_agg_ovo_desthr,0.74,0.74,0.76,0.71,0.72,0.734,0.01743559577416271
+svc_max_agg_ova_desthr,0.74,0.74,0.76,0.69,0.7,0.726,0.026532998322843223
+svc_ecoc_agg_ova_desthr,0.73,0.73,0.73,0.68,0.68,0.7100000000000001,0.024494897427831747
+svc_ecoc_agg_ovo_desthr,0.73,0.74,0.77,0.71,0.72,0.734,0.02059126028197402

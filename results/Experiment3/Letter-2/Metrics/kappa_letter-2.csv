@@ -1,0 +1,13 @@
+Technique,Fold1,Fold2,Fold3,Fold4,Fold5,mean,std
+tree_max_agg_ova_desthr,,,,,,,
+tree_majority_agg_ovo_desthr,,,,,,,
+svc_decision_templates_agg_ovo_desthr,,,,,,,
+svc_decision_templates_agg_ova_desthr,,,,,,,
+tree_decision_templates_agg_ova_desthr,,,,,,,
+tree_decision_templates_agg_ovo_desthr,,,,,,,
+tree_ecoc_agg_ovo_desthr,,,,,,,
+svc_majority_agg_ovo_desthr,,,,,,,
+svc_max_agg_ova_desthr,,,,,,,
+svc_ecoc_agg_ova_desthr,,,,,,,
+tree_ecoc_agg_ova_desthr,,,,,,,
+svc_ecoc_agg_ovo_desthr,,,,,,,
